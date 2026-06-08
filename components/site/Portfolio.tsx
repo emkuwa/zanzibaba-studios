@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import { useTranslations } from 'next-intl';
-import { Play, ArrowUpRight, Image as ImageIcon, Video as VideoIcon, Plane, Megaphone, Calendar } from 'lucide-react';
+import { ArrowUpRight, Image as ImageIcon, Video as VideoIcon, Plane, Megaphone, Calendar } from 'lucide-react';
 import { Reveal } from './Reveal';
 import { cn } from '@/lib/utils';
 
@@ -140,19 +140,9 @@ export function Portfolio() {
                     />
                     {/* Lighter bottom gradient for title legibility — images stay vibrant */}
                     <div
-                      className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-transparent to-transparent"
+                      className="absolute inset-0 bg-gradient-to-t from-ink-950/15 via-transparent to-transparent"
                       aria-hidden="true"
                     />
-
-                    {/* Play indicator for video/drone */}
-                    {(item.type === 'video' || item.type === 'drone') && (
-                      <div
-                        className="absolute left-5 top-5 grid h-11 w-11 place-items-center rounded-full bg-white/15 backdrop-blur-md transition-colors group-hover:bg-coral-500"
-                        aria-hidden="true"
-                      >
-                        <Play className="h-4 w-4 fill-white text-white" />
-                      </div>
-                    )}
 
                     {/* Tag — top right */}
                     <div className="absolute right-5 top-5">
@@ -163,7 +153,7 @@ export function Portfolio() {
 
                     {/* Title overlay at bottom */}
                     <div className="absolute inset-x-0 bottom-0 p-5 md:p-6">
-                      <h3 className="font-display text-xl font-bold leading-tight text-white md:text-2xl">
+                      <h3 className="font-display text-xl font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] md:text-2xl">
                         {t(`items.${item.key}.title`)}
                       </h3>
                       <div className="mt-3 flex items-center justify-between border-t border-white/10 pt-3">

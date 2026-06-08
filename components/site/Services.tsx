@@ -89,7 +89,7 @@ export function Services() {
                     />
                     {/* Lighter gradient — images visible, text readable */}
                     <div
-                      className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-transparent to-transparent"
+                      className="absolute inset-0 bg-gradient-to-t from-ink-950/10 via-transparent to-transparent"
                       aria-hidden="true"
                     />
                     <div className="absolute left-4 top-4 grid h-11 w-11 place-items-center rounded-2xl border border-white/20 bg-ink-950/60 backdrop-blur-md">

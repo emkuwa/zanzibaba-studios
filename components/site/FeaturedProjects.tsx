@@ -77,7 +77,7 @@ export function FeaturedProjects() {
                       className="h-full w-full object-cover transition-transform duration-[1500ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105"
                     />
                     <div
-                      className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-transparent to-transparent md:bg-gradient-to-r md:from-ink-950/50 md:via-transparent md:to-transparent"
+                      className="absolute inset-0 bg-gradient-to-t from-ink-950/10 via-transparent to-transparent md:bg-gradient-to-r md:from-ink-950/10 md:via-transparent md:to-transparent"
                       aria-hidden="true"
                     />
                     <div className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full border border-coral-400/40 bg-coral-500/20 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.24em] text-coral-200 backdrop-blur-md">

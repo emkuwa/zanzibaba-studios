@@ -68,7 +68,7 @@ export function TourismFocus() {
                     />
                     {/* Lighter gradient — only at bottom for text legibility */}
                     <div
-                      className="absolute inset-0 bg-gradient-to-t from-ink-950/70 via-transparent to-transparent"
+                      className="absolute inset-0 bg-gradient-to-t from-ink-950/10 via-transparent to-transparent"
                       aria-hidden="true"
                     />
                     {/* Number badge */}
