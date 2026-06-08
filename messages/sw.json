@@ -1,0 +1,432 @@
+{
+  "brand": {
+    "name": "Zanzibaba Studios",
+    "tagline": "Midia • Uzalishaji • Utangazaji",
+    "short": "Zanzibaba",
+    "sub": "Studios",
+    "mark": "ZB"
+  },
+  "nav": {
+    "home": "Mwanzo",
+    "services": "Huduma",
+    "portfolio": "Kazi Zetu",
+    "zanzibarLive": "Zanzibar Live",
+    "about": "Kuhusu",
+    "pricing": "Bei",
+    "contact": "Wasiliana",
+    "quote": "Omba Nukuu",
+    "menu": "Fungua menyu",
+    "close": "Funga menyu"
+  },
+  "hero": {
+    "eyebrow": "Zanzibar • Utalii • Sinema",
+    "title": "Tunasimulia Hadithi ya Zanzibar kupitia Picha Zenye Nguvu",
+    "subtitle": "Uzalishaji wa video, upigaji picha, huduma za drone na utiririshaji wa moja kwa moja kwa ajili ya bidhaa zinazotamanika za utalii duniani.",
+    "ctaPrimary": "Omba Nukuu",
+    "ctaSecondary": "Tazama Kazi",
+    "scroll": "Sogeza chini kuchunguza",
+    "location": "Mji Mkongwe, Zanzibar",
+    "reel": "Filamu 2025",
+    "stat1": { "label": "Miradi Iliyokamilika", "value": "240+" },
+    "stat2": { "label": "Wabia wa Utalii", "value": "60+" },
+    "stat3": { "label": "Nchi Zilizofikiwa", "value": "32" },
+    "stat4": { "label": "Miaka ya Kufilimu Zanzibar", "value": "9" }
+  },
+  "logos": {
+    "title": "Tunaaminiwa na bidhaa zinazopendwa za utalii wa Zanzibar"
+  },
+  "clientLogos": {
+    "eyebrow": "Wateja waliochaguliwa",
+    "title": "Kutoka villa ndogo hadi bidhaa za kimataifa za ukarimu",
+    "subtitle": "Hoteli, kituo cha starehe, waendeshaji wa ziara, ndege na mabaraza ya utalii wanachagua Zanzibaba Studios kusimulia hadithi yao.",
+    "categories": {
+      "hotels": "Hoteli na Kituo cha Starehe",
+      "tours": "Waendeshaji wa Ziara",
+      "airlines": "Ndege na Usafirishaji",
+      "hospitality": "Bidhaa za Ukarimu"
+    }
+  },
+  "stats": {
+    "eyebrow": "Kwa nambari",
+    "title": "Muongo mmoja wa uhadithi wa utalii",
+    "subtitle": "Tunapima mafanikio kwa wabia tunayowahudumia na kazi inayosafiri ulimwenguni.",
+    "s1": { "value": "50+", "label": "Miradi iliyokamilika" },
+    "s2": { "value": "20+", "label": "Wateja wa utalii" },
+    "s3": { "value": "100+", "label": "Maudhui yaliyotolewa" },
+    "s4": { "value": "5+", "label": "Miaka ya uzalishaji wa premium" }
+  },
+  "featured": {
+    "eyebrow": "Miradi iliyochaguliwa",
+    "title": "Kazi za hivi karibuni kwa viongozi wa utalii",
+    "subtitle": "Chaguo la miradi ya hivi karibuni ya premium iliyotolewa kwa hoteli, villa, na bidhaa za utalii kote Bahari ya Hindi.",
+    "viewCase": "Tazama utafiti wa kesi",
+    "client": "Mteja",
+    "scope": "Wigo",
+    "year": "Mwaka",
+    "items": {
+      "f1": {
+        "title": "Zuri Resort — Filamu ya Uzinduzi wa Bidhaa",
+        "client": "Zuri Resort Zanzibar",
+        "scope": "Filamu ya bidhaa + picha 40 + maudhui 12 ya kijamii",
+        "year": "2025",
+        "imgAlt": "Zuri Resort kifahari ya pwani wakati wa jioni"
+      },
+      "f2": {
+        "title": "Mnemba Atoll — Kampeni ya Utalii",
+        "client": "Bodi ya Utalii Zanzibar",
+        "scope": "Filamu + picha za drone + maudhui 8",
+        "year": "2025",
+        "imgAlt": "Picha za drone ya Mnemba Atoll maji ya turqoise"
+      },
+      "f3": {
+        "title": "The Lighthouse Villa — Filamu ya Uzinduzi",
+        "client": "Lighthouse Villa Group",
+        "scope": "Filamu kuu + drone + picha za uhariri + mali za tovuti",
+        "year": "2024",
+        "imgAlt": "Villa ya kifahari ya pwani yenye bwawa la infinity"
+      }
+    }
+  },
+  "showreel": {
+    "eyebrow": "Filamu 2025",
+    "title": "Dakika tatu za Zanzibar",
+    "subtitle": "Filamu yetu ya hivi karibuni ya kinema — safari iliyochaguliwa kupitia kazi bora ya mwaka.",
+    "play": "Cheza filamu",
+    "duration": "3:24",
+    "pause": "Simamisha",
+    "viewFull": "Tazama kwenye Vimeo"
+  },
+  "reviews": {
+    "eyebrow": "Maoni ya wateja",
+    "title": "Wanasema nini wabia wetu wa utalii",
+    "subtitle": "Maoni yaliyothibitishwa kutoka kwa hoteli, villa, waendeshaji wa ziara na bidhaa za utalii ambazo tumetengenezea.",
+    "verified": "Mteja aliethibitishwa",
+    "source": "kupitia Google Reviews",
+    "items": {
+      "r1": {
+        "name": "Amina Hassan",
+        "role": "Mkurugenzi wa Masoko, Zuri Resort",
+        "date": "Machi 2025",
+        "rating": "5.0",
+        "quote": "Zanzibaba walileta kituo chetu cha starehe uzima kwa njia ambayo hatukufikiria inawezekana. Filamu ilifanya vizuri kwa kila njia tuliyoiweka na uhifadhi wetu wa moja kwa moja uliongezeka 38% katika robo ya kwanza.",
+        "photoAlt": "Amina Hassan, Mkurugenzi wa Masoko wa Zuri Resort"
+      },
+      "r2": {
+        "name": "Luca Romano",
+        "role": "Mkuu wa Bidhaa, AquaTour",
+        "date": "Februari 2025",
+        "rating": "5.0",
+        "quote": "Kazi ya drone juu ya Mnemba ilikuwa miongoni mwa picha bora za angani tulizopata leseni. Wanaelewa utalii, majukwaa, na kinachomfanya mtu bonyeza 'hifadhi'.",
+        "photoAlt": "Luca Romano, Mkuu wa Bidhaa wa AquaTour"
+      },
+      "r3": {
+        "name": "Sofia Müller",
+        "role": "Mmiliki, The Lighthouse Villa",
+        "date": "Januari 2025",
+        "rating": "5.0",
+        "quote": "Haraka, kitaalamu, na kwa ubunifu wa ujasiri. Maswali yetu ya villa yalipita mara mbili mwezi maudhui mapya yalipowekwa. Tukawapa miaka miwili kabla ya kampeni ya kwanza kuisha.",
+        "photoAlt": "Sofia Müller, Mmiliki wa The Lighthouse Villa"
+      },
+      "r4": {
+        "name": "Daniel Mwangi",
+        "role": "Mkurugenzi Mtendaji, ZanAir",
+        "date": "Desemba 2024",
+        "rating": "5.0",
+        "quote": "Kufanya kazi na Zanzibaba kwenye kituo chetu cha utalii ndani ya ndege kumebadilisha kabisa. Picha zao za Zanzibar sasa zinaonekana na abiria 200,000+ kwa mwaka.",
+        "photoAlt": "Daniel Mwangi, Mkurugenzi Mtendaji wa ZanAir"
+      },
+      "r5": {
+        "name": "Layla Khan",
+        "role": "Mkuu wa Masoko, Serena Hotels",
+        "date": "Novemba 2024",
+        "rating": "5.0",
+        "quote": "Ubora wa premium, muda mfupi wa kukamilisha, na uelewa wa kweli wa ukarimu wa hali ya juu. Wao ni mshirika wetu wa uzalishaji wa eneo lote la Afrika Mashariki.",
+        "photoAlt": "Layla Khan, Mkuu wa Masoko wa Serena Hotels"
+      },
+      "r6": {
+        "name": "Tom Becker",
+        "role": "Mwanzilishi, Zanzibar Adventures",
+        "date": "Oktoba 2024",
+        "rating": "4.9",
+        "quote": "Kikosi kilishika ziara zetu za viungo, safari za pomboo na matembezi ya Mji Mkongwe kwa utunzaji wa kinema ambao mawakala wengi wanauhifadhi kwa kituo cha nyota 5. Hakika ya kuvutia.",
+        "photoAlt": "Tom Becker, Mwanzilishi wa Zanzibar Adventures"
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Tunachounda",
+    "title": "Huduma za uzalishaji zilizojengwa kwa sekta ya utalii",
+    "subtitle": "Kutoka kwa jua la kwanza juu ya Mji Mkongwe hadi picha za drone juu ya maji ya turqoise — tunashughulikia mchakato mzima wa ubunifu kwa hoteli, kituo cha starehe, villa na bidhaa za utalii.",
+    "counter": "{index} kati ya 10",
+    "learnMore": "Jifunze zaidi",
+    "items": {
+      "tourismVideo": {
+        "title": "Uzalishaji wa Video za Utalii",
+        "desc": "Hadithi za kinema zinazobadilisha maeneo ya kuvutia kuwa ndoto za wasafiri.",
+        "imgAlt": "Kikosi cha uzalishaji kikifilimu na kamera ya sinema kwa bidhaa ya utalii"
+      },
+      "hotelPhoto": {
+        "title": "Upigaji Picha wa Hoteli na Kituo cha Starehe",
+        "desc": "Picha za uhariri zilizotengenezwa kwa OTA, mifumo ya kuhifadhi na kampeni za kimataifa.",
+        "imgAlt": "Mpiga picha anapiga picha za chumba cha hoteli kwa usambazaji wa kimataifa"
+      },
+      "drone": {
+        "title": "Upigaji Video wa Drone",
+        "desc": "Hadithi za angani za 4K — pwani za mchikichi, ukingo wa miamba, machweo na zaidi.",
+        "imgAlt": "Drone ikipiga picha za angani juu ya pwani ya Zanzibar"
+      },
+      "villa": {
+        "title": "Uuzaji wa Villa za Kifahari",
+        "desc": "Maudhui ya kipekee kwa villa binafsi, mapumziko na mkusanyiko wa kukodisha.",
+        "imgAlt": "Villa ya kifahari ya pwani yenye bwawa la infinity wakati wa machweo"
+      },
+      "documentary": {
+        "title": "Uzalishaji wa Filamu za Kusafiri",
+        "desc": "Hadithi za kina zinazoshikilia roho ya mahali pamoja.",
+        "imgAlt": "Kikosi cha filamu mahali pamoja kinashika wakati wa kitamaduni"
+      },
+      "campaign": {
+        "title": "Kampeni za Utangazaji wa Utalii",
+        "desc": "Kuzindua kwa majukwaa mengi zinazoleta uhifadhi wa kweli na umaarufu.",
+        "imgAlt": "Watalii wakifurahia uzoefu wa kweli wa Zanzibar"
+      },
+      "social": {
+        "title": "Uundaji wa Maudhui ya Mitandao ya Kijamii",
+        "desc": "Mifumo ya maudhui inayoendelea kwa Instagram, TikTok, YouTube na zaidi.",
+        "imgAlt": "Wapendanao wakifurahia pwani ya Zanzibar — wakati wa maudhui ya kijamii"
+      },
+      "events": {
+        "title": "Utengenezaji wa Matukio",
+        "desc": "Tamasha, kuzindua, harusi na matukio ya kikampuni — yamepigwa kutoka mwanzo hadi mwisho.",
+        "imgAlt": "Kikosi cha uzalishaji wa tukio kinapiga uoneshaji wa moja kwa moja"
+      },
+      "live": {
+        "title": "Huduma za Utiririshaji wa Moja kwa Moja",
+        "desc": "Utangazaji wa moja kwa moja wa kamera nyingi kwa ubora wa daraja la sinema.",
+        "imgAlt": "Mpangilio wa utangazaji wa moja kwa moja wa kamera nyingi katika eneo la Zanzibar"
+      },
+      "commercial": {
+        "title": "Uzalishaji wa Video za Biashara",
+        "desc": "Matangazo ya TV, filamu za bidhaa na matangazo yenye athari kubwa.",
+        "imgAlt": "Picha ya angani ya kituo cha kifahari inayotumika kwa kampeni ya kibiashara ya utalii"
+      }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Kazi tulizochagua",
+    "title": "Mkusanyiko wa kazi kutoka Bahari ya Hindi",
+    "subtitle": "Hoteli, villa, kampeni, filamu za drone na wakati wa moja kwa moja kutoka Zanzibar.",
+    "filters": {
+      "all": "Zote",
+      "video": "Video za Utalii",
+      "photo": "Picha za Hoteli",
+      "drone": "Miradi ya Drone",
+      "campaign": "Kampeni za Maeneo",
+      "events": "Matukio ya Moja kwa Moja"
+    },
+    "viewProject": "Tazama mradi",
+    "items": {
+      "i1": { "title": "Zuri Resort — Filamu ya Bidhaa", "tag": "Kituo cha Starehe", "alt": "Mtazamo wa angani wa kituo cha starehe cha ufukweni wakati wa jioni" },
+      "i2": { "title": "Filamu ya Mji Mkongwe", "tag": "Filamu", "alt": "Mtaa wa Mji Mkongwe wenye milango ya kuchongwa" },
+      "i3": { "title": "Mnemba Atoll — Picha za Angani", "tag": "Drone", "alt": "Picha ya drone ya maji ya turqoise ya Mnemba Atoll" },
+      "i4": { "title": "The Lighthouse Villa", "tag": "Villa ya Kifahari", "alt": "Villa binafsi ya pwani yenye bwawa la infinity" },
+      "i5": { "title": "Kampeni ya Ziara ya Viungo", "tag": "Kampeni", "alt": "Mkulima wa viungo akionyesha gome la mdalasini Zanzibar" },
+      "i6": { "title": "Sauti za Busara — Moja kwa Moja", "tag": "Tukio la Moja kwa Moja", "alt": "Wasanii wakicheza muziki kwenye tamasha la Sauti za Busara" },
+      "i7": { "title": "Mfululizo wa Kitesurf Paje", "tag": "Mitandao ya Kijamii", "alt": "Msanii wa kitesurf akipiga mawimbi pwani ya Paje" },
+      "i8": { "title": "Soko la Usiku la Forodhani", "tag": "Filamu", "alt": "Soko la chakula la usiku la Forodhani Gardens limeangaziwa na balbu" },
+      "i9": { "title": "Kampeni ya Machweo ya Dhow", "tag": "Kampeni", "alt": "Meli ya jadi ya mbao ikisafiri wakati wa machweo" },
+      "i10": { "title": "Tamasha la Kimataifa la Filamu Zanzibar", "tag": "Tukio la Moja kwa Moja", "alt": "Umati wa watu kwenye uonyeshaji wa Tamasha la Kimataifa la Filamu Zanzibar" },
+      "i11": { "title": "Pwani ya Nungwi — Filamu ya Bidhaa", "tag": "Video ya Utalii", "alt": "Picha pana ya Pwani ya Nungwi yenye mchanga mweupe na miti ya mchikichi" },
+      "i12": { "title": "Royal Zanzibar — Picha za Uhariri", "tag": "Picha za Hoteli", "alt": "Chumba cha hoteli ya kifahari kinachoangalia Bahari ya Hindi" }
+    }
+  },
+  "tourism": {
+    "eyebrow": "Kwanza kwa utalii",
+    "title": "Tunaishi na kupumua sekta ya utalii",
+    "subtitle": "Kikosi chetu kumeishi miaka kwenye ardhi na watu wanaowakaribisha ulimwengu Zanzibar. Tunaelewa kinachouza chumba, kujaza ziara, na kuleta eneo uzima mtandaoni.",
+    "items": {
+      "hotels": {
+        "title": "Hoteli na Kituo cha Starehe",
+        "desc": "Filamu za bidhaa, picha za vyumba, maudhui ya F&B, na picha tayari kwa OTA.",
+        "imgAlt": "Kituo cha kifahari cha pwani ya Zanzibar wakati wa jioni"
+      },
+      "villas": {
+        "title": "Villa za Kifahari",
+        "desc": "Hadithi za kinema kwa wamiliki, mawakala na majukwaa ya kukodisha.",
+        "imgAlt": "Villa binafsi ya kifahari yenye mwonekano wa bahari Zanzibar"
+      },
+      "tours": {
+        "title": "Waendeshaji wa Ziara",
+        "desc": "Filamu za matembezi, maudhui ya kijamii, na mali tayari kwa ubadilishaji.",
+        "imgAlt": "Watalii wanaochunguza Zanzibar kwenye ziara iliyopangwa"
+      },
+      "campaigns": {
+        "title": "Kampeni za Utalii",
+        "desc": "Kampeni za ngazi ya bodi kwa DMO, wizara na mabaraza ya utalii.",
+        "imgAlt": "Pwani maarufu ya Zanzibar inayotumika kwa kampeni ya eneo"
+      },
+      "airlines": {
+        "title": "Ndege na Ukarimu",
+        "desc": "Maudhui ya ndani ya ndege, hadithi za bidhaa, na midia ardhini.",
+        "imgAlt": "Dhow ya jadi wakati wa machweo — picha za kifahari za kusafiri"
+      },
+      "investors": {
+        "title": "Wawekezaji wa Utalii",
+        "desc": "Filamu za uwasilishaji, picha za uchunguzi, na uuzaji wa mradi.",
+        "imgAlt": "Mali ya uwekezaji wa utalii wa Zanzibar wa hali ya juu"
+      }
+    }
+  },
+  "live": {
+    "eyebrow": "Inakuja hivi karibuni",
+    "title": "Zanzibar Live",
+    "subtitle": "Mradi wa bendera unaotangaza visiwa kwa ulimwengu — kutoka pwani za mchanga meupe na tamasha za kitamaduni hadi uchawi wa kila siku wa Mji Mkongwe.",
+    "tagline": "Kutangaza Zanzibar moja kwa moja kwa ulimwengu kupitia pwani, matukio, utamaduni na uzoefu wa utalii.",
+    "features": {
+      "f1": "Utangazaji wa pwani wa kamera nyingi",
+      "f2": "Uzalishaji wa moja kwa moja wa tamasha na matukio",
+      "f3": "Hadithi za kitamaduni kwa wakati halisi",
+      "f4": "Uamsho wa bidhaa za ukarimu"
+    },
+    "cta": "Shirikiana na Zanzibar Live"
+  },
+  "why": {
+    "eyebrow": "Kwa nini Zanzibaba",
+    "title": "Mizizi ya hapa. Ubunifu wa kimataifa.",
+    "subtitle": "Ubora wa juu bila gharama ya wakala wa juu — na kikosi kinachojua kila maji na paa la Zanzibar.",
+    "items": {
+      "expertise": { "title": "Ujuzi wa Zanzibar wa Hapa", "desc": "Tunajua maji, mwanga, vibali, pwani zilijificha, na hadithi zinazozifanya ziimbe." },
+      "quality": { "title": "Vigezo vya Ubora vya Kimataifa", "desc": "Kamera za daraja la sinema, mifumo ya rangi na viwango vya uhariri vinavyotumiwa na bidhaa za kimataifa." },
+      "gear": { "title": "Vifaa vya Kitaalamu", "desc": "Miili ya sinema ya RED & Sony, sauti kamili ya kitaalamu, drone zilizoidhinishwa na gimbals — tayari kila wakati." },
+      "speed": { "title": "Uwasilishaji wa Haraka", "desc": "Vikosi vya haraka, muda mfupi wa kukamilisha, na wahariri wako tayari ili uzinduzi wako usisubiri." },
+      "story": { "title": "Uhadithi wa Ubunifu", "desc": "Hatupigii tu — tunaunda hadithi zinazosababisha wasafiri kuhifadhi, kufuata na kushiriki." }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Maneno ya wateja",
+    "title": "Tunaaminiwa na timu zinazosogeza wasafiri",
+    "items": {
+      "t1": { "quote": "Zanzibaba walileta kituo chetu cha starehe uzima kwa njia ambayo hatukufikiria inawezekana. Filamu ilifanya vizuri kwa kila njia tuliyoiweka.", "name": "Amina Hassan", "role": "Mkurugenzi wa Masoko, Zuri Resort" },
+      "t2": { "quote": "Kazi ya drone juu ya Mnemba ilikuwa miongoni mwa picha bora za angani tulizopata leseni. Wanaelewa utalii.", "name": "Luca Romano", "role": "Mkuu wa Bidhaa, AquaTour" },
+      "t3": { "quote": "Haraka, kitaalamu, na kwa ubunifu wa ujasiri. Maswali yetu ya villa yalipita mara mbili mwezi maudhui mapya yalipowekwa.", "name": "Sofia Müller", "role": "Mmiliki, The Lighthouse Villa" }
+    }
+  },
+  "pricing": {
+    "eyebrow": "Vifurushi vya uzalishaji",
+    "title": "Vifurushi vilivyobinafsishwa kwa bidhaa za utalii",
+    "subtitle": "Kila mradi ni wa kipekee, lakini haya ni mawazo ya kuanzia. Vifurushi vyote vinajumuisha uongozi wa ubunifu, kikosi cha kitaalamu na uzalishaji wa baada.",
+    "perProject": "kwa mradi",
+    "popular": "Maarufu zaidi",
+    "includes": "Kinachojumuishwa",
+    "cta": "Omba kifurushi hiki",
+    "packageLabel": "Kifurushi {index}",
+    "items": {
+      "essentials": {
+        "name": "Msingi",
+        "price": "Kutoka $1,200",
+        "desc": "Kwa hoteli ndogo, villa na waendeshaji wa ziara wanaohitaji upya wa haraka wa premium.",
+        "features": [
+          "Picha za nusu siku eneo",
+          "Filamu moja kuu (60–90s)",
+          "Picha 20 zilohaririwa",
+          "Maudhui 3 ya kijamii",
+          "Uwasilishaji wa siku 5"
+        ]
+      },
+      "signature": {
+        "name": "Ishara",
+        "price": "Kutoka $3,500",
+        "desc": "Kifurushi chetu kinachohifadhiwa zaidi kwa hoteli, villa na bidhaa za utalii tayari kukua.",
+        "features": [
+          "Uzalishaji kamili wa siku 2",
+          "Filamu 1 ya bidhaa (90–180s)",
+          "Filamu 1 ya drone (60s)",
+          "Picha 40 zilohaririwa",
+          "Maudhui 8 ya kijamii",
+          "Rangi ya sinema",
+          "Leseni ya muziki",
+          "Uwasilishaji wa siku 10"
+        ]
+      },
+      "campaign": {
+        "name": "Kampeni",
+        "price": "Maalum",
+        "desc": "Kampeni za majukwaa mengi, filamu, na mifumo ya maudhui inayoendelea.",
+        "features": [
+          "Mkakati kamili wa ubunifu",
+          "Uzalishaji wa siku nyingi",
+          "Filamu na nyaraka",
+          "Utangazaji kamili wa drone + angani",
+          "Upigaji picha wa kampeni",
+          "Mfumo wa maudhui ya kijamii",
+          "Malengo tayari kwa midia",
+          "Mzalishaji wa kujitolea"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Tunde",
+    "title": "Tuambie kuhusu mradi wako",
+    "subtitle": "Shiriki maelezo machache na wazalishaji wetu watakurudishia ndani ya siku moja ya kazi na pendekezo lililobinafsishwa.",
+    "name": "Jina kamili",
+    "email": "Anwani ya barua pepe",
+    "company": "Kampuni / Bidhaa",
+    "phone": "Simu au WhatsApp",
+    "service": "Huduma unayopenda",
+    "select": "Chagua huduma",
+    "budget": "Baja iliyokadiriwa",
+    "selectBudget": "Chagua kipindi",
+    "message": "Tuambie kuhusu mradi wako",
+    "send": "Tuma uchunguzi",
+    "sending": "Inatuma...",
+    "whatsapp": "Zungumza kwa WhatsApp",
+    "whatsappCard": "Wazalishaji wa WhatsApp",
+    "emailCard": "Barua pepe",
+    "studioCard": "Studio",
+    "email_label": "hello@zanzibabastudios.com",
+    "phone_label": "+255 700 000 000",
+    "location_label": "Mji Mkongwe, Zanzibar",
+    "privacy": "Kwa kutuma unakubali sera yetu ya faragha. Hatushiriki kamwe maelezo yako.",
+    "thanks": "Asante — tutawasiliana nawe hivi karibuni.",
+    "errors": {
+      "required": "Tafadhali jaza sehemu zinazohitajika.",
+      "email": "Tafadhali weka anwani ya barua pepe halali."
+    }
+  },
+  "footer": {
+    "tagline": "Nyumba ya Zanzibar kwa sinema ya utalii, upigaji picha na utangazaji wa moja kwa moja.",
+    "explore": "Chunguza",
+    "services": "Huduma",
+    "company": "Kampuni",
+    "connect": "Ungana",
+    "rights": "Haki zote zimehifadhiwa.",
+    "crafted": "Imeundwa Zanzibar",
+    "newsletter": {
+      "title": "Hadithi kutoka kisiwani",
+      "desc": "Nyuma ya jukwaa, toleo jipya na masasisho ya Zanzibar Live — moja kwa moja kwenye barua pepe yako.",
+      "placeholder": "Barua pepe yako",
+      "cta": "Jiandikishe",
+      "success": "Umeandikishwa — karibu."
+    },
+    "links": {
+      "about": "Kuhusu",
+      "portfolio": "Kazi",
+      "pricing": "Bei",
+      "blog": "Blogu",
+      "contact": "Wasiliana",
+      "live": "Zanzibar Live"
+    }
+  },
+  "common": {
+    "play": "Cheza filamu",
+    "watch": "Tazama",
+    "viewAll": "Tazama zote",
+    "learnMore": "Jifunze zaidi",
+    "requestQuote": "Omba nukuu",
+    "languages": "Lugha",
+    "english": "English",
+    "swahili": "Kiswahili",
+    "skipToContent": "Ruka hadi maudhui"
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "brand": {
+    "name": "Zanzibaba Studios",
+    "tagline": "Media • Production • Broadcasting",
+    "short": "Zanzibaba",
+    "sub": "Studios",
+    "mark": "ZB"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "zanzibarLive": "Zanzibar Live",
+    "about": "About",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "quote": "Request a Quote",
+    "menu": "Open menu",
+    "close": "Close menu"
+  },
+  "hero": {
+    "eyebrow": "Zanzibar • Tourism • Cinema",
+    "title": "We Tell Zanzibar's Story Through Powerful Visuals",
+    "subtitle": "Premium video production, photography, drone services and live streaming for the world's most desirable tourism brands.",
+    "ctaPrimary": "Request a Quote",
+    "ctaSecondary": "View Portfolio",
+    "scroll": "Scroll to explore",
+    "location": "Stone Town, Zanzibar",
+    "reel": "Reel 2025",
+    "stat1": { "label": "Projects Delivered", "value": "240+" },
+    "stat2": { "label": "Tourism Partners", "value": "60+" },
+    "stat3": { "label": "Countries Reached", "value": "32" },
+    "stat4": { "label": "Years Filming Zanzibar", "value": "9" }
+  },
+  "logos": {
+    "title": "Trusted by Zanzibar's most loved tourism brands"
+  },
+  "clientLogos": {
+    "eyebrow": "Selected clients",
+    "title": "From boutique villas to global hospitality brands",
+    "subtitle": "Hotels, resorts, tour operators, airlines and tourism boards choose Zanzibaba Studios to tell their story.",
+    "categories": {
+      "hotels": "Hotels & Resorts",
+      "tours": "Tour Operators",
+      "airlines": "Airlines & Aviation",
+      "hospitality": "Hospitality Brands"
+    }
+  },
+  "stats": {
+    "eyebrow": "By the numbers",
+    "title": "A decade of tourism storytelling",
+    "subtitle": "We measure success by the partners we serve and the work that travels the world.",
+    "s1": { "value": "50+", "label": "Projects delivered" },
+    "s2": { "value": "20+", "label": "Tourism clients" },
+    "s3": { "value": "100+", "label": "Content deliverables" },
+    "s4": { "value": "5+", "label": "Years of premium production" }
+  },
+  "featured": {
+    "eyebrow": "Featured projects",
+    "title": "Recent work for tourism leaders",
+    "subtitle": "A selection of recent premium projects delivered for hotels, villas, and tourism brands across the Indian Ocean.",
+    "viewCase": "View case study",
+    "client": "Client",
+    "scope": "Scope",
+    "year": "Year",
+    "items": {
+      "f1": {
+        "title": "Zuri Resort — Brand Re-launch Film",
+        "client": "Zuri Resort Zanzibar",
+        "scope": "Brand film + 40 photography + 12 social cutdowns",
+        "year": "2025",
+        "imgAlt": "Zuri Resort luxury beachfront at golden hour"
+      },
+      "f2": {
+        "title": "Mnemba Atoll — Tourism Campaign",
+        "client": "Zanzibar Tourism Board",
+        "scope": "Documentary + drone reel + 8 cutdowns",
+        "year": "2025",
+        "imgAlt": "Aerial drone footage of Mnemba Atoll turquoise waters"
+      },
+      "f3": {
+        "title": "The Lighthouse Villa — Launch Film",
+        "client": "Lighthouse Villa Group",
+        "scope": "Hero film + drone + editorial shoot + website assets",
+        "year": "2024",
+        "imgAlt": "Luxury oceanfront villa with infinity pool"
+      }
+    }
+  },
+  "showreel": {
+    "eyebrow": "2025 Showreel",
+    "title": "Three minutes of Zanzibar",
+    "subtitle": "Our latest cinematic showreel — a curated journey through our best work of the year.",
+    "play": "Play showreel",
+    "duration": "3:24",
+    "pause": "Pause",
+    "viewFull": "View on Vimeo"
+  },
+  "reviews": {
+    "eyebrow": "Client reviews",
+    "title": "What our tourism partners say",
+    "subtitle": "Verified reviews from hotels, villas, tour operators and tourism brands we've produced for.",
+    "verified": "Verified client",
+    "source": "via Google Reviews",
+    "items": {
+      "r1": {
+        "name": "Amina Hassan",
+        "role": "Marketing Director, Zuri Resort",
+        "date": "March 2025",
+        "rating": "5.0",
+        "quote": "Zanzibaba brought our resort to life in a way we didn't think was possible. The film performed on every channel we placed it on and our direct bookings went up 38% in the first quarter.",
+        "photoAlt": "Amina Hassan, Marketing Director at Zuri Resort"
+      },
+      "r2": {
+        "name": "Luca Romano",
+        "role": "Head of Brand, AquaTour",
+        "date": "February 2025",
+        "rating": "5.0",
+        "quote": "The drone work over Mnemba was some of the best aerial footage we've ever licensed. They understand tourism, the platforms, and what makes a viewer hit 'book'.",
+        "photoAlt": "Luca Romano, Head of Brand at AquaTour"
+      },
+      "r3": {
+        "name": "Sofia Müller",
+        "role": "Owner, The Lighthouse Villa",
+        "date": "January 2025",
+        "rating": "5.0",
+        "quote": "Fast, professional, and creatively brave. Our villa inquiries doubled in the month the new content went live. We renewed them for a second year before the first campaign ended.",
+        "photoAlt": "Sofia Müller, Owner of The Lighthouse Villa"
+      },
+      "r4": {
+        "name": "Daniel Mwangi",
+        "role": "CEO, ZanAir",
+        "date": "December 2024",
+        "rating": "5.0",
+        "quote": "Working with Zanzibaba on our in-flight tourism channel has been transformative. Their footage of Zanzibar is now seen by 200,000+ passengers a year.",
+        "photoAlt": "Daniel Mwangi, CEO of ZanAir"
+      },
+      "r5": {
+        "name": "Layla Khan",
+        "role": "Head of Marketing, Serena Hotels",
+        "date": "November 2024",
+        "rating": "5.0",
+        "quote": "Premium quality, fast turnaround, and a real understanding of luxury hospitality. They are our go-to production partner for the entire East Africa region.",
+        "photoAlt": "Layla Khan, Head of Marketing at Serena Hotels"
+      },
+      "r6": {
+        "name": "Tom Becker",
+        "role": "Founder, Zanzibar Adventures",
+        "date": "October 2024",
+        "rating": "4.9",
+        "quote": "The team captured our spice tours, dolphin trips and Stone Town walks with the same cinematic care most agencies reserve for 5-star resorts. Genuinely impressive.",
+        "photoAlt": "Tom Becker, Founder of Zanzibar Adventures"
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "What we craft",
+    "title": "Production services built for the tourism industry",
+    "subtitle": "From the first sunrise over Stone Town to drone shots above turquoise waters — we handle the full creative pipeline for hotels, resorts, villas and tour brands.",
+    "counter": "{index} of 10",
+    "learnMore": "Learn more",
+    "items": {
+      "tourismVideo": {
+        "title": "Tourism Video Production",
+        "desc": "Cinematic stories that turn destinations into dream destinations.",
+        "imgAlt": "Production crew filming with cinema camera for a tourism brand"
+      },
+      "hotelPhoto": {
+        "title": "Resort & Hotel Photography",
+        "desc": "Editorial imagery crafted for OTAs, booking engines and global campaigns.",
+        "imgAlt": "Photographer capturing hotel suite content for global distribution"
+      },
+      "drone": {
+        "title": "Drone Videography",
+        "desc": "4K aerial storytelling — palm coasts, reef lines, sunsets and beyond.",
+        "imgAlt": "Drone capturing aerial footage over Zanzibar coastline"
+      },
+      "villa": {
+        "title": "Luxury Villa Marketing",
+        "desc": "Bespoke content for private villas, retreats and short-let portfolios.",
+        "imgAlt": "Luxury beachfront villa with infinity pool at sunset"
+      },
+      "documentary": {
+        "title": "Travel Documentary Production",
+        "desc": "Long-form storytelling that captures the soul of a place.",
+        "imgAlt": "Documentary crew on location capturing cultural moments"
+      },
+      "campaign": {
+        "title": "Tourism Promotional Campaigns",
+        "desc": "Multi-platform launches that drive real bookings and visibility.",
+        "imgAlt": "Tourists enjoying authentic Zanzibar experiences"
+      },
+      "social": {
+        "title": "Social Media Content Creation",
+        "desc": "Always-on content engines for Instagram, TikTok, YouTube and beyond.",
+        "imgAlt": "Couple enjoying Zanzibar beach — social content moment"
+      },
+      "events": {
+        "title": "Event Coverage",
+        "desc": "Festivals, launches, weddings and corporate events — captured end to end.",
+        "imgAlt": "Event production team capturing a live performance"
+      },
+      "live": {
+        "title": "Live Streaming Services",
+        "desc": "Multi-camera live broadcasts with cinema-grade quality.",
+        "imgAlt": "Multi-camera live broadcast setup at a Zanzibar venue"
+      },
+      "commercial": {
+        "title": "Commercial Video Production",
+        "desc": "TV-ready commercials, brand films and high-impact advertising.",
+        "imgAlt": "Luxury resort aerial used for commercial tourism campaign"
+      }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Selected work",
+    "title": "A reel of work across the Indian Ocean",
+    "subtitle": "Hotels, villas, campaigns, drone films and live moments from across Zanzibar.",
+    "filters": {
+      "all": "All",
+      "video": "Tourism Videos",
+      "photo": "Hotel Photography",
+      "drone": "Drone Projects",
+      "campaign": "Destination Campaigns",
+      "events": "Live Events"
+    },
+    "viewProject": "View project",
+    "items": {
+      "i1": { "title": "Zuri Resort — Brand Film", "tag": "Resort", "alt": "Aerial view of a luxury beach resort at golden hour" },
+      "i2": { "title": "Stone Town Documentary", "tag": "Documentary", "alt": "Historic Stone Town alleyway with carved wooden doors" },
+      "i3": { "title": "Mnemba Atoll — Aerial Reel", "tag": "Drone", "alt": "Drone shot of Mnemba Atoll turquoise waters" },
+      "i4": { "title": "The Lighthouse Villa", "tag": "Luxury Villa", "alt": "Private oceanfront villa with infinity pool" },
+      "i5": { "title": "Spice Tour Campaign", "tag": "Campaign", "alt": "Spice farmer showing fresh cinnamon bark in Zanzibar" },
+      "i6": { "title": "Sauti za Busara — Live", "tag": "Live Event", "alt": "Live music performance at Sauti za Busara festival" },
+      "i7": { "title": "Paje Kitesurf Series", "tag": "Social", "alt": "Kitesurfer riding waves at Paje beach" },
+      "i8": { "title": "Forodhani Night Market", "tag": "Documentary", "alt": "Forodhani Gardens night food market lit by lanterns" },
+      "i9": { "title": "Dhow Sunset Campaign", "tag": "Campaign", "alt": "Traditional wooden dhow sailing at sunset" },
+      "i10": { "title": "Zanzibar International Film Festival", "tag": "Live Event", "alt": "Crowd at Zanzibar International Film Festival screening" },
+      "i11": { "title": "Nungwi Beach Brand Film", "tag": "Tourism Video", "alt": "Wide shot of Nungwi Beach with white sand and palm trees" },
+      "i12": { "title": "Royal Zanzibar — Editorial Shoot", "tag": "Hotel Photography", "alt": "Luxury hotel suite overlooking the Indian Ocean" }
+    }
+  },
+  "tourism": {
+    "eyebrow": "Tourism-first",
+    "title": "We live and breathe the tourism industry",
+    "subtitle": "Our crew has spent years on the ground with the people who welcome the world to Zanzibar. We understand what sells a room, fills a tour, and brings a destination to life online.",
+    "items": {
+      "hotels": {
+        "title": "Hotels & Resorts",
+        "desc": "Brand films, room shoots, F&B content, and OTA-ready photography.",
+        "imgAlt": "Luxury Zanzibar beach resort at golden hour"
+      },
+      "villas": {
+        "title": "Luxury Villas",
+        "desc": "Cinematic storytelling for owners, agents and short-let platforms.",
+        "imgAlt": "Private luxury villa with ocean view in Zanzibar"
+      },
+      "tours": {
+        "title": "Tour Operators",
+        "desc": "Excursion films, social content, and conversion-ready landing assets.",
+        "imgAlt": "Tourists exploring Zanzibar on a curated excursion"
+      },
+      "campaigns": {
+        "title": "Tourism Campaigns",
+        "desc": "Board-level campaigns for DMOs, ministries and tourism boards.",
+        "imgAlt": "Iconic Zanzibar coastline used for destination campaign"
+      },
+      "airlines": {
+        "title": "Airlines & Hospitality",
+        "desc": "In-flight content, brand storytelling, and on-the-ground media.",
+        "imgAlt": "Traditional dhow at sunset — premium travel imagery"
+      },
+      "investors": {
+        "title": "Tourism Investors",
+        "desc": "Pitch films, due-diligence visuals, and project marketing.",
+        "imgAlt": "Premium Zanzibar tourism investment property"
+      }
+    }
+  },
+  "live": {
+    "eyebrow": "Coming soon",
+    "title": "Zanzibar Live",
+    "subtitle": "A flagship project streaming the islands to the world — from white-sand beaches and cultural festivals to the everyday magic of Stone Town.",
+    "tagline": "Live streaming Zanzibar to the world through beaches, events, culture and tourism experiences.",
+    "features": {
+      "f1": "Multi-camera beach broadcasts",
+      "f2": "Festival & event live production",
+      "f3": "Cultural storytelling in real time",
+      "f4": "Hospitality brand activations"
+    },
+    "cta": "Partner with Zanzibar Live"
+  },
+  "why": {
+    "eyebrow": "Why Zanzibaba",
+    "title": "Local roots. International craft.",
+    "subtitle": "Premium quality without the premium-agency overhead — and a crew that knows every tide and rooftop in Zanzibar.",
+    "items": {
+      "expertise": { "title": "Local Zanzibar Expertise", "desc": "We know the tides, the light, the permits, the hidden beaches, and the stories that make them sing." },
+      "quality": { "title": "International Quality Standards", "desc": "Cinema-grade cameras, color pipelines and editorial standards used by global brands." },
+      "gear": { "title": "Professional Equipment", "desc": "RED & Sony cinema bodies, full pro audio, licensed drones and gimbals — always ready." },
+      "speed": { "title": "Fast Delivery", "desc": "Agile crews, fast turnarounds, and editors on-call so your launch never waits." },
+      "story": { "title": "Creative Storytelling", "desc": "We don't just shoot — we craft narratives that move travelers to book, follow and share." }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Client words",
+    "title": "Trusted by teams that move travelers",
+    "items": {
+      "t1": { "quote": "Zanzibaba brought our resort to life in a way we didn't think was possible. The film performed on every channel we placed it on.", "name": "Amina Hassan", "role": "Marketing Director, Zuri Resort" },
+      "t2": { "quote": "The drone work over Mnemba was some of the best aerial footage we've ever licensed. They understand tourism.", "name": "Luca Romano", "role": "Head of Brand, AquaTour" },
+      "t3": { "quote": "Fast, professional, and creatively brave. Our villa inquiries doubled in the month the new content went live.", "name": "Sofia Müller", "role": "Owner, The Lighthouse Villa" }
+    }
+  },
+  "pricing": {
+    "eyebrow": "Production packages",
+    "title": "Tailored packages for tourism brands",
+    "subtitle": "Every project is custom, but these starting points help you plan. All packages include creative direction, professional crew and post-production.",
+    "perProject": "per project",
+    "popular": "Most popular",
+    "includes": "What's included",
+    "cta": "Request this package",
+    "packageLabel": "Package {index}",
+    "items": {
+      "essentials": {
+        "name": "Essentials",
+        "price": "From $1,200",
+        "desc": "For boutique hotels, villas and tour operators needing a fast, premium refresh.",
+        "features": [
+          "Half-day on-location shoot",
+          "1 hero film (60–90s)",
+          "20 edited photos",
+          "3 social cutdowns",
+          "5-day delivery"
+        ]
+      },
+      "signature": {
+        "name": "Signature",
+        "price": "From $3,500",
+        "desc": "Our most-booked package for hotels, villas and tourism brands ready to grow.",
+        "features": [
+          "2-day full production",
+          "1 brand film (90–180s)",
+          "1 drone reel (60s)",
+          "40 edited photos",
+          "8 social cutdowns",
+          "Cinematic color grade",
+          "Music licensing",
+          "10-day delivery"
+        ]
+      },
+      "campaign": {
+        "name": "Campaign",
+        "price": "Custom",
+        "desc": "Multi-platform campaigns, documentaries, and always-on content engines.",
+        "features": [
+          "End-to-end creative strategy",
+          "Multi-day production",
+          "Documentary & brand films",
+          "Full drone + aerial coverage",
+          "Campaign photography",
+          "Social content system",
+          "Media-ready deliverables",
+          "Dedicated producer"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Let's create",
+    "title": "Tell us about your project",
+    "subtitle": "Share a few details and our producers will get back to you within one business day with a tailored proposal.",
+    "name": "Full name",
+    "email": "Email address",
+    "company": "Company / Brand",
+    "phone": "Phone or WhatsApp",
+    "service": "Service of interest",
+    "select": "Select a service",
+    "budget": "Estimated budget",
+    "selectBudget": "Select a range",
+    "message": "Tell us about your project",
+    "send": "Send enquiry",
+    "sending": "Sending...",
+    "whatsapp": "Chat on WhatsApp",
+    "whatsappCard": "WhatsApp Producers",
+    "emailCard": "Email",
+    "studioCard": "Studio",
+    "email_label": "hello@zanzibabastudios.com",
+    "phone_label": "+255 700 000 000",
+    "location_label": "Stone Town, Zanzibar",
+    "privacy": "By sending you agree to our privacy-first approach. We never share your details.",
+    "thanks": "Thank you — we'll be in touch shortly.",
+    "errors": {
+      "required": "Please fill in the required fields.",
+      "email": "Please enter a valid email address."
+    }
+  },
+  "footer": {
+    "tagline": "Zanzibar's home for tourism cinema, photography and live broadcasting.",
+    "explore": "Explore",
+    "services": "Services",
+    "company": "Company",
+    "connect": "Connect",
+    "rights": "All rights reserved.",
+    "crafted": "Crafted in Zanzibar",
+    "newsletter": {
+      "title": "Stories from the island",
+      "desc": "Behind-the-scenes, new releases and Zanzibar Live updates — straight to your inbox.",
+      "placeholder": "Your email",
+      "cta": "Subscribe",
+      "success": "Subscribed — welcome aboard."
+    },
+    "links": {
+      "about": "About",
+      "portfolio": "Portfolio",
+      "pricing": "Pricing",
+      "blog": "Blog",
+      "contact": "Contact",
+      "live": "Zanzibar Live"
+    }
+  },
+  "common": {
+    "play": "Play reel",
+    "watch": "Watch",
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "requestQuote": "Request a quote",
+    "languages": "Language",
+    "english": "English",
+    "swahili": "Kiswahili",
+    "skipToContent": "Skip to content"
+  }
+}
