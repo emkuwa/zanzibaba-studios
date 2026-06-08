@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from 'next';
-import Script from 'next/script';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -8,6 +7,7 @@ import { siteConfig } from '@/lib/site';
 import { Navbar } from '@/components/site/Navbar';
 import { Footer } from '@/components/site/Footer';
 import { WhatsAppFloat } from '@/components/site/WhatsAppFloat';
+import { CookieConsent } from '@/components/site/CookieConsent';
 import { Cursor } from '@/components/site/Cursor';
 import { ScrollProgress } from '@/components/site/ScrollProgress';
 import '../globals.css';
@@ -237,6 +237,7 @@ export default async function LocaleLayout({
           </main>
           <Footer />
           <WhatsAppFloat />
+          <CookieConsent />
         </NextIntlClientProvider>
         <script
           type="application/ld+json"
@@ -250,19 +251,6 @@ export default async function LocaleLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesJsonLd) }}
         />
-
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-76F21X58RW"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-76F21X58RW');
-          `}
-        </Script>
       </body>
     </html>
   );
