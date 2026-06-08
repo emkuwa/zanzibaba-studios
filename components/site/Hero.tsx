@@ -75,11 +75,11 @@ export function Hero() {
               <span>{t('eyebrow')}</span>
             </div>
 
-            <h1 className="hero-heading text-balance text-[42px] font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-[88px]">
+            <h1 className="hero-heading max-w-xs text-balance text-[36px] font-bold leading-[1.15] tracking-tight text-white sm:max-w-sm sm:text-5xl md:max-w-3xl md:text-7xl lg:max-w-5xl lg:text-[88px] lg:leading-[1.05]">
               {t('title')}
             </h1>
 
-            <p className="mt-6 max-w-2xl text-pretty text-lg font-medium leading-relaxed text-white/90 sm:text-xl md:text-2xl">
+            <p className="mt-8 max-w-2xl text-pretty text-lg font-medium leading-relaxed text-white/85 sm:mt-10 sm:text-xl md:mt-12 md:text-2xl">
               {t('subtitle')}
             </p>
 
