@@ -88,13 +88,10 @@
     }
   },
   "showreel": {
-    "eyebrow": "Filamu 2025",
-    "title": "Dakika tatu za Zanzibar",
-    "subtitle": "Filamu yetu ya hivi karibuni ya kinema — safari iliyochaguliwa kupitia kazi bora ya mwaka.",
-    "play": "Cheza filamu",
-    "duration": "3:24",
-    "pause": "Simamisha",
-    "viewFull": "Tazama kwenye Vimeo"
+    "eyebrow": "Inakuja Karibu",
+    "title": "Onyesho la Filamu 2025",
+    "subtitle": "Tunaandaa onyesho letu jipya la hadithi nzuri za utalii za Zanzibar. Omba portfolio yetu kuona kazi iliyokamilika.",
+    "cta": "Omba Portfolio"
   },
   "reviews": {
     "eyebrow": "Maoni ya wateja",
@@ -363,6 +360,70 @@
           "Mzalishaji wa kujitolea"
         ]
       }
+    },
+    "servicesSection": {
+      "eyebrow": "Huduma moja moja",
+      "title": "Unahitaji jambo moja kwa usahihi?",
+      "subtitle": "Agiza huduma za uzalishaji kimoja kimoja — hakuna kifurushi kinachohitajika.",
+      "cta": "Hifadhi huduma hii",
+      "items": {
+        "photography": {
+          "name": "Upigaji Picha wa Hoteli",
+          "price": "Kutoka $350",
+          "desc": "Picha za uhariri za hoteli kwa majukwaa ya kuhifadhi na kampeni.",
+          "features": ["Picha eneo", "Picha 20 za ubora wa juu", "Rangi zimepangwa", "Leseni ya kibiashara"]
+        },
+        "drone": {
+          "name": "Filamu ya Drone",
+          "price": "Kutoka $400",
+          "desc": "Picha za angani za 4K — pwani, hoteli, villa na mandhari.",
+          "features": ["Maeneo hadi 2", "Saa 2 za kuruka", "Filamu ya sekunde 60", "Haki za kibiashara"]
+        },
+        "video": {
+          "name": "Uzalishaji wa Video",
+          "price": "Kutoka $800",
+          "desc": "Filamu ya kinema au video ya utalii — muda mfupi wa kukamilisha.",
+          "features": ["Picha za nusu siku", "Filamu 1 kuu (60–90s)", "Rangi + sauti", "Maudhui 3 ya kijamii"]
+        },
+        "social": {
+          "name": "Reels za Mitandao",
+          "price": "Kutoka $200",
+          "desc": "Maudhui mafupi kwa Instagram, TikTok na YouTube Shorts.",
+          "features": ["Hadi reels 5", "Muundo wima + mraba", "Maelezo + muziki", "Uwasilishaji wa masaa 48"]
+        },
+        "live": {
+          "name": "Utangazaji Moja kwa Moja",
+          "price": "Kutoka $600",
+          "desc": "Utangazaji wa kamera nyingi kwa matukio, uzinduzi na sherehe.",
+          "features": ["Kamera 2", "Sauti ya kitaalamu", "Tuma kwa jukwaa lolote", "Rekodi imejumuishwa"]
+        },
+        "event": {
+          "name": "Huduma za Matukio",
+          "price": "Kutoka $500",
+          "desc": "Kukamata siku nzima ya tukio — harusi, uzinduzi, karamu na sherehe.",
+          "features": ["Siku nzima", "Kamera 2", "Picha 30-50", "Filamu ya sekunde 180"]
+        }
+      }
+    },
+    "addonsSection": {
+      "eyebrow": "Nyongeza",
+      "title": "Ongeza kwa kifurushi au huduma yoyote",
+      "subtitle": "Imarisha uzalishaji wako kwa nyongeza hizi za hiari.",
+      "items": {
+        "extraDay": { "name": "Siku ya Ziada ya Picha", "price": "+$500" },
+        "extraReel": { "name": "Filamu ya Ziada ya Drone", "price": "+$350" },
+        "extraPhotos": { "name": "Picha +20 Zilizohaririwa", "price": "+$150" },
+        "express": { "name": "Uwasilishaji wa Haraka (48h)", "price": "+$300" },
+        "voiceover": { "name": "Sauti ya Kitaalamu", "price": "+$200" },
+        "music": { "name": "Utunzi Maalum wa Muziki", "price": "+$400" }
+      }
+    },
+    "buildYourQuote": {
+      "eyebrow": "Jenga Nukuu Yako",
+      "title": "Changanya, linganisha, na jenga yako mwenyewe",
+      "subtitle": "Huna uhakika ni kifurushi kipi kinafaa? Chagua huduma unazohitaji na tutatengeneza pendekezo maalum.",
+      "cta": "Jenga Nukuu Yako",
+      "note": "Bei zote ni makadirio ya mwanzo. Nukuu za mwisho zinategemea eneo, muda, na mahitaji maalum."
     }
   },
   "contact": {

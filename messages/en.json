@@ -88,13 +88,10 @@
     }
   },
   "showreel": {
-    "eyebrow": "2025 Showreel",
-    "title": "Three minutes of Zanzibar",
-    "subtitle": "Our latest cinematic showreel — a curated journey through our best work of the year.",
-    "play": "Play showreel",
-    "duration": "3:24",
-    "pause": "Pause",
-    "viewFull": "View on Vimeo"
+    "eyebrow": "Coming Soon",
+    "title": "Showreel 2025",
+    "subtitle": "We're crafting our latest showcase of Zanzibar's most beautiful tourism stories. Request our portfolio to see completed work.",
+    "cta": "Request Portfolio"
   },
   "reviews": {
     "eyebrow": "Client reviews",
@@ -363,6 +360,70 @@
           "Dedicated producer"
         ]
       }
+    },
+    "servicesSection": {
+      "eyebrow": "Single services",
+      "title": "Need one thing done right?",
+      "subtitle": "Order individual production services — no package required.",
+      "cta": "Book this service",
+      "items": {
+        "photography": {
+          "name": "Resort Photography",
+          "price": "From $350",
+          "desc": "Editorial hotel photography for booking platforms and campaigns.",
+          "features": ["On-location shoot", "20 high-res edited photos", "Color graded", "Commercial license"]
+        },
+        "drone": {
+          "name": "Drone Reel",
+          "price": "From $400",
+          "desc": "4K aerial footage — coastline, resorts, villas and landscapes.",
+          "features": ["Up to 2 locations", "2 hours flight time", "60s edited reel", "Commercial rights"]
+        },
+        "video": {
+          "name": "Video Production",
+          "price": "From $800",
+          "desc": "Cinematic brand film or tourism video — fast turnaround.",
+          "features": ["Half-day shoot", "1 hero film (60–90s)", "Color grade + sound design", "3 social cutdowns"]
+        },
+        "social": {
+          "name": "Social Media Reels",
+          "price": "From $200",
+          "desc": "Short-form content for Instagram, TikTok and YouTube Shorts.",
+          "features": ["Up to 5 reels", "Vertical + square formats", "Captions + music", "48-hour delivery"]
+        },
+        "live": {
+          "name": "Live Streaming",
+          "price": "From $600",
+          "desc": "Multi-camera live production for events, launches and festivals.",
+          "features": ["2-camera setup", "Professional audio", "Stream to any platform", "Recording included"]
+        },
+        "event": {
+          "name": "Event Coverage",
+          "price": "From $500",
+          "desc": "Full-day event capture — weddings, launches, galas and ceremonies.",
+          "features": ["Full-day coverage", "2 cameras", "30-50 edited photos", "3-min highlight film"]
+        }
+      }
+    },
+    "addonsSection": {
+      "eyebrow": "Add-ons",
+      "title": "Add to any package or service",
+      "subtitle": "Enhance your production with these optional extras.",
+      "items": {
+        "extraDay": { "name": "Extra Shoot Day", "price": "+$500" },
+        "extraReel": { "name": "Extra Drone Reel", "price": "+$350" },
+        "extraPhotos": { "name": "+20 Edited Photos", "price": "+$150" },
+        "express": { "name": "Express Delivery (48h)", "price": "+$300" },
+        "voiceover": { "name": "Professional Voice-over", "price": "+$200" },
+        "music": { "name": "Custom Music Composition", "price": "+$400" }
+      }
+    },
+    "buildYourQuote": {
+      "eyebrow": "Build Your Quote",
+      "title": "Mix, match, and build your own",
+      "subtitle": "Not sure which package fits? Pick the services you need and we'll build a custom proposal.",
+      "cta": "Build Your Quote",
+      "note": "All prices are starting estimates. Final quotes depend on location, duration, and specific requirements."
     }
   },
   "contact": {
