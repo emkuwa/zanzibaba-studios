@@ -132,7 +132,7 @@ export default async function LocaleLayout({
     telephone: siteConfig.phoneRaw,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Stone Town',
+      streetAddress: 'Stone Town & Paje',
       addressLocality: 'Zanzibar',
       addressRegion: 'Zanzibar Urban-West',
       addressCountry: 'TZ',
@@ -164,7 +164,7 @@ export default async function LocaleLayout({
     email: siteConfig.email,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Stone Town',
+      streetAddress: 'Stone Town & Paje',
       addressLocality: 'Zanzibar',
       addressCountry: 'TZ',
     },

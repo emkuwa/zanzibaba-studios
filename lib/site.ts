@@ -15,7 +15,7 @@ export const siteConfig = {
   whatsapp: '255716002790',
   whatsappDisplay: '+255 716 002 790',
   whatsappMessage: 'Hello Zanzibaba Studios! I would like to enquire about a production project.',
-  address: 'Stone Town, Zanzibar, Tanzania',
+  address: 'Stone Town & Paje, Zanzibar, Tanzania',
   geo: {
     latitude: -6.1659,
     longitude: 39.2026,
