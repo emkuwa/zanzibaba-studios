@@ -1,14 +1,11 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Play, ArrowUpRight, Check, Radio } from 'lucide-react';
+import { ArrowUpRight, Check, Radio } from 'lucide-react';
 import { Link } from '@/routing';
 import { Reveal } from './Reveal';
-import { VideoBackground } from './VideoBackground';
 
-const VIDEO =
-  'https://videos.pexels.com/video-files/4763824/4763824-uhd_2732_1440_25fps.mp4';
-const POSTER = '/images/zanzibar-live-broadcast.jpg';
+const BG = '/images/zanzibar-live-broadcast.jpg';
 
 export function ZanzibarLive() {
   const t = useTranslations('live');
@@ -16,7 +13,11 @@ export function ZanzibarLive() {
     <section id="zanzibar-live" className="relative py-20 sm:py-24 md:py-32">
       <div className="container-z">
         <div className="relative isolate overflow-hidden rounded-3xl border border-white/10 bg-ink-900/50 sm:rounded-[28px]">
-          <VideoBackground src={VIDEO} poster={POSTER} overlay="gradient" />
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: `url(${BG})` }}
+            aria-hidden="true"
+          />
           <div
             className="absolute inset-0 bg-gradient-to-r from-ink-950/60 via-transparent to-transparent"
             aria-hidden="true"

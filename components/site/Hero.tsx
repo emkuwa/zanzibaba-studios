@@ -3,12 +3,9 @@
 import { useTranslations } from 'next-intl';
 import { ArrowRight, Play, Volume2, ChevronDown, Star } from 'lucide-react';
 import { Link } from '@/routing';
-import { VideoBackground } from './VideoBackground';
 import { useEffect, useState } from 'react';
 
-const HERO_VIDEO =
-  'https://videos.pexels.com/video-files/2519660/2519660-uhd_2560_1440_30fps.mp4';
-const HERO_POSTER = '/images/hero-zanzibar-coastline.jpg';
+const HERO_BG = '/images/hero-zanzibar-coastline.jpg';
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -40,8 +37,11 @@ export function Hero() {
       className="relative isolate h-[100svh] min-h-[640px] w-full overflow-hidden md:min-h-[720px]"
       aria-label={t('eyebrow')}
     >
-      <VideoBackground src={HERO_VIDEO} poster={HERO_POSTER} />
-
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${HERO_BG})` }}
+        aria-hidden="true"
+      />
       <div
         className="absolute inset-0 bg-gradient-to-b from-ink-950/20 via-transparent to-ink-950/30"
         aria-hidden="true"
