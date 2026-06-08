@@ -49,7 +49,7 @@ export function Showreel() {
               </p>
 
               <Link
-                href="/contact"
+                href="/#contact"
                 className="mt-10 inline-flex items-center gap-2 rounded-full bg-coral-500 px-8 py-3.5 text-sm font-semibold uppercase tracking-[0.12em] text-white shadow-glow-coral transition-all hover:bg-coral-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950"
               >
                 {t('cta')}
