@@ -12,6 +12,13 @@
   --text-primary: #ffffff;
   --text-secondary: #e5e5e5;
   --text-muted: #d4d4d4;
+  --navbar-height: 64px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --navbar-height: 80px;
+  }
 }
 
 * {

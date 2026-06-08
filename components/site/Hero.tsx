@@ -4,8 +4,16 @@ import { useTranslations } from 'next-intl';
 import { ArrowRight, ChevronDown, Star } from 'lucide-react';
 import { Link } from '@/routing';
 import { useEffect, useState } from 'react';
+import { CountUp } from './CountUp';
 
 const HERO_BG = '/images/hero-zanzibar-coastline.jpg';
+
+const STATS = [
+  { value: 240, suffix: '+', key: 'stat1' },
+  { value: 60, suffix: '+', key: 'stat2' },
+  { value: 32, suffix: '', key: 'stat3' },
+  { value: 9, suffix: '', key: 'stat4' },
+] as const;
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -34,7 +42,7 @@ export function Hero() {
 
   return (
     <section
-      className="relative isolate h-[100svh] min-h-[640px] w-full overflow-hidden md:min-h-[720px]"
+      className="relative isolate flex min-h-[max(704px,calc(100dvh+var(--navbar-height)))] w-full flex-col overflow-hidden pt-[var(--navbar-height)] md:min-h-[max(800px,calc(100dvh+var(--navbar-height)))] md:pt-[var(--navbar-height)]"
       aria-label={t('eyebrow')}
     >
       <div
@@ -67,19 +75,19 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative z-10 flex h-full">
+      <div className="relative z-10 flex flex-1">
         <div className="container-z flex w-full flex-col justify-end pb-16 md:pb-24">
-          <div className="max-w-5xl">
+          <div className="max-w-5xl rounded-2xl bg-ink-950/20 p-6 backdrop-blur-sm md:p-8">
             <div className="eyebrow mb-6 inline-flex rounded-full border border-lagoon-300/30 bg-lagoon-300/[0.06] px-4 py-1.5 backdrop-blur">
               <Star className="h-3 w-3 text-lagoon-300" aria-hidden="true" />
               <span>{t('eyebrow')}</span>
             </div>
 
-            <h1 className="hero-heading max-w-xs text-balance text-[36px] font-bold leading-[1.15] tracking-tight text-white sm:max-w-sm sm:text-5xl md:max-w-3xl md:text-7xl lg:max-w-5xl lg:text-[88px] lg:leading-[1.05]">
+            <h1 className="hero-heading max-w-xs text-balance text-[36px] font-bold leading-[1.15] tracking-tight text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.85)] sm:max-w-sm sm:text-5xl md:max-w-3xl md:text-7xl lg:max-w-5xl lg:text-[88px] lg:leading-[1.05]">
               {t('title')}
             </h1>
 
-            <p className="mt-8 max-w-2xl text-pretty text-lg font-medium leading-relaxed text-white/85 sm:mt-10 sm:text-xl md:mt-12 md:text-2xl">
+            <p className="mt-8 max-w-2xl text-pretty text-lg font-medium leading-relaxed text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.75)] sm:mt-10 sm:text-xl md:mt-12 md:text-2xl">
               {t('subtitle')}
             </p>
 
@@ -99,13 +107,13 @@ export function Hero() {
           </div>
 
           <div className="mt-12 grid max-w-4xl grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
-            {(['stat1', 'stat2', 'stat3', 'stat4'] as const).map((k) => (
-              <div key={k} className="glass rounded-2xl px-5 py-4">
+            {STATS.map((stat, i) => (
+              <div key={stat.key} className="glass rounded-2xl px-5 py-4">
                 <div className="font-display text-3xl font-bold text-white md:text-4xl">
-                  {t(`${k}.value`)}
+                  <CountUp value={stat.value} suffix={stat.suffix} delay={i * 200} />
                 </div>
                 <div className="mt-1 text-[11px] uppercase tracking-[0.28em] font-medium text-white/70">
-                  {t(`${k}.label`)}
+                  {t(`${stat.key}.label`)}
                 </div>
               </div>
             ))}

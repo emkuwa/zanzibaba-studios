@@ -127,8 +127,7 @@ export function Portfolio() {
                   className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-400 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950"
                   aria-label={t(`items.${item.key}.title`)}
                 >
-                  {/* Image — the primary focus, 4:5 portrait on mobile for cinematic feel */}
-                  <div className="relative aspect-[4/5] w-full overflow-hidden sm:aspect-[5/6] md:aspect-[6/7] lg:aspect-[4/5]">
+                  <div className="aspect-[4/5] w-full overflow-hidden sm:aspect-[5/6] md:aspect-[6/7] lg:aspect-[4/5]">
                     <img
                       src={item.img}
                       alt={alt}
@@ -138,35 +137,24 @@ export function Portfolio() {
                       height={1500}
                       className="h-full w-full object-cover transition-transform duration-[1500ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
                     />
-                    {/* Lighter bottom gradient for title legibility — images stay vibrant */}
-                    <div
-                      className="absolute inset-0 bg-gradient-to-t from-ink-950/15 via-transparent to-transparent"
-                      aria-hidden="true"
-                    />
-
-                    {/* Tag — top right */}
-                    <div className="absolute right-5 top-5">
-                      <span className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-ink-950/50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-lagoon-300 backdrop-blur">
-                        {t(`items.${item.key}.tag`)}
+                  </div>
+                  <div className="p-5 md:p-6">
+                    <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-lagoon-300">
+                      {t(`items.${item.key}.tag`)}
+                    </span>
+                    <h3 className="mt-2 font-display text-lg font-bold leading-snug text-white md:text-xl">
+                      {t(`items.${item.key}.title`)}
+                    </h3>
+                    <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-4">
+                      <span className="text-[11px] uppercase tracking-[0.2em] font-medium text-white/75">
+                        {t('viewProject')}
                       </span>
-                    </div>
-
-                    {/* Title overlay at bottom */}
-                    <div className="absolute inset-x-0 bottom-0 p-5 md:p-6">
-                      <h3 className="font-display text-xl font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] md:text-2xl">
-                        {t(`items.${item.key}.title`)}
-                      </h3>
-                      <div className="mt-3 flex items-center justify-between border-t border-white/10 pt-3">
-                        <span className="text-[11px] uppercase tracking-[0.2em] font-medium text-white/75">
-                          {t('viewProject')}
-                        </span>
-                        <span
-                          className="grid h-9 w-9 place-items-center rounded-full border border-white/20 bg-white/[0.06] backdrop-blur transition-all group-hover:border-coral-400 group-hover:bg-coral-500"
-                          aria-hidden="true"
-                        >
-                          <ArrowUpRight className="h-4 w-4 text-white" />
-                        </span>
-                      </div>
+                      <span
+                        className="grid h-8 w-8 place-items-center rounded-full border border-white/20 bg-white/[0.06] transition-all group-hover:border-coral-400 group-hover:bg-coral-500"
+                        aria-hidden="true"
+                      >
+                        <ArrowUpRight className="h-3.5 w-3.5 text-white" />
+                      </span>
                     </div>
                   </div>
                 </a>
