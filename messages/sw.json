@@ -38,7 +38,7 @@
   "clientLogos": {
     "eyebrow": "Wateja waliochaguliwa",
     "title": "Kutoka villa ndogo hadi bidhaa za kimataifa za ukarimu",
-    "subtitle": "Hoteli, kituo cha starehe, waendeshaji wa ziara, ndege na mabaraza ya utalii wanachagua Zanzibaba Studios kusimulia hadithi yao.",
+    "subtitle": "Hoteli na waendeshaji ziara wanatuamini kusimulia hadithi yao.",
     "categories": {
       "hotels": "Hoteli na Kituo cha Starehe",
       "tours": "Waendeshaji wa Ziara",
@@ -49,7 +49,7 @@
   "stats": {
     "eyebrow": "Kwa nambari",
     "title": "Muongo mmoja wa uhadithi wa utalii",
-    "subtitle": "Tunapima mafanikio kwa wabia tunayowahudumia na kazi inayosafiri ulimwenguni.",
+    "subtitle": "Matokeo yanajisema kwao wenyewe.",
     "s1": { "value": "50+", "label": "Miradi iliyokamilika" },
     "s2": { "value": "20+", "label": "Wateja wa utalii" },
     "s3": { "value": "100+", "label": "Maudhui yaliyotolewa" },
@@ -153,7 +153,7 @@
   "services": {
     "eyebrow": "Tunachounda",
     "title": "Huduma za uzalishaji zilizojengwa kwa sekta ya utalii",
-    "subtitle": "Kutoka kwa jua la kwanza juu ya Mji Mkongwe hadi picha za drone juu ya maji ya turqoise — tunashughulikia mchakato mzima wa ubunifu kwa hoteli, kituo cha starehe, villa na bidhaa za utalii.",
+    "subtitle": "Kutoka mawazo hadi utoaji — uzalishaji kamili kwa hoteli na bidhaa za utalii.",
     "counter": "{index} kati ya 10",
     "learnMore": "Jifunze zaidi",
     "items": {
@@ -445,7 +445,7 @@
     "whatsappCard": "Wazalishaji wa WhatsApp",
     "emailCard": "Barua pepe",
     "studioCard": "Studio",
-    "email_label": "hello@zanzibabastudios.com",
+    "email_label": "info@zanzibaba.com",
     "phone_label": "+255 700 000 000",
     "location_label": "Mji Mkongwe, Zanzibar",
     "privacy": "Kwa kutuma unakubali sera yetu ya faragha. Hatushiriki kamwe maelezo yako.",
@@ -478,6 +478,36 @@
       "contact": "Wasiliana",
       "live": "Zanzibar Live"
     }
+  },
+  "chat": {
+    "open": "Fungua msaidizi wa mauzo",
+    "close": "Funga gumzo",
+    "title": "Msaidizi wa Mauzo",
+    "online": "Mtandaoni",
+    "greeting": "Habari! Mimi ni Msaidizi wa Mauzo wa Zanzibaba Studios. Ninaweza kusaidia kukadiria bajeti ya mradi na kukuunganisha na mtayarishaji. Wewe ni mteja wa aina gani?",
+    "types": {
+      "hotel": "Hoteli",
+      "resort": "Kituo cha Starehe",
+      "villa": "Villa",
+      "tour": "Waendeshaji Ziara",
+      "investor": "Mwekezaji",
+      "event": "Mratibu wa Matukio",
+      "other": "Nyingine"
+    },
+    "services_question": "Chaguo zuri. Kwa aina yako, tunapendekeza: {services}. Je, unavutiwa na huduma zipi? (Chagua zote unazotaka)",
+    "budget_question": "Je, unakadiria bajeti gani kwa mradi wako?",
+    "contact_intro": "Karibu kumaliza! Tafadhali shiriki maelezo yako na tutakutumia muhtasari wa nukuu kwa barua pepe na WhatsApp.",
+    "form_name": "Jina lako *",
+    "form_company": "Jina la kampuni",
+    "form_whatsapp": "Nambari ya WhatsApp *",
+    "form_email": "Barua pepe",
+    "send": "Tuma na Pata Nukuu",
+    "summary_intro": "Huu ni muhtasari wa nukuu yako:",
+    "summary_detail": "Mteja: {type}\nHuduma: {services}\nBajeti: {budget}",
+    "summary_contact": "Mawasiliano:",
+    "summary_actions": "Tumetuma hii kwa info@zanzibaba.com na timu yetu itawasiliana. Unaweza pia kutufikia moja kwa moja:",
+    "producer": "Ongea na Mtayarishaji",
+    "continue": "Endelea"
   },
   "common": {
     "play": "Cheza filamu",

@@ -8,6 +8,7 @@ import { Navbar } from '@/components/site/Navbar';
 import { Footer } from '@/components/site/Footer';
 import { WhatsAppFloat } from '@/components/site/WhatsAppFloat';
 import { CookieConsent } from '@/components/site/CookieConsent';
+import { ChatAssistant } from '@/components/site/ChatAssistant';
 import { Cursor } from '@/components/site/Cursor';
 import { ScrollProgress } from '@/components/site/ScrollProgress';
 import '../globals.css';
@@ -237,6 +238,7 @@ export default async function LocaleLayout({
           </main>
           <Footer />
           <WhatsAppFloat />
+          <ChatAssistant />
           <CookieConsent />
         </NextIntlClientProvider>
         <script

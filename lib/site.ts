@@ -8,7 +8,7 @@ export const siteConfig = {
   url: 'https://studios.zanzibaba.com',
   ogImage: '/og.svg',
   ogImageType: 'image/svg+xml',
-  email: 'hello@zanzibaba.com',
+  email: 'info@zanzibaba.com',
   // Production contact
   phone: '+255 716 002 790',
   phoneRaw: '+255716002790',

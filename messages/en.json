@@ -38,7 +38,7 @@
   "clientLogos": {
     "eyebrow": "Selected clients",
     "title": "From boutique villas to global hospitality brands",
-    "subtitle": "Hotels, resorts, tour operators, airlines and tourism boards choose Zanzibaba Studios to tell their story.",
+    "subtitle": "Hotels, resorts and tour operators trust us with their story.",
     "categories": {
       "hotels": "Hotels & Resorts",
       "tours": "Tour Operators",
@@ -49,7 +49,7 @@
   "stats": {
     "eyebrow": "By the numbers",
     "title": "A decade of tourism storytelling",
-    "subtitle": "We measure success by the partners we serve and the work that travels the world.",
+    "subtitle": "Results that speak for themselves.",
     "s1": { "value": "50+", "label": "Projects delivered" },
     "s2": { "value": "20+", "label": "Tourism clients" },
     "s3": { "value": "100+", "label": "Content deliverables" },
@@ -58,7 +58,7 @@
   "featured": {
     "eyebrow": "Featured projects",
     "title": "Recent work for tourism leaders",
-    "subtitle": "A selection of recent premium projects delivered for hotels, villas, and tourism brands across the Indian Ocean.",
+    "subtitle": "Premium work delivered for hotels, resorts, and tourism leaders.",
     "viewCase": "View case study",
     "client": "Client",
     "scope": "Scope",
@@ -153,7 +153,7 @@
   "services": {
     "eyebrow": "What we craft",
     "title": "Production services built for the tourism industry",
-    "subtitle": "From the first sunrise over Stone Town to drone shots above turquoise waters — we handle the full creative pipeline for hotels, resorts, villas and tour brands.",
+    "subtitle": "From concept to delivery — full-service production for hotels, resorts and tour brands.",
     "counter": "{index} of 10",
     "learnMore": "Learn more",
     "items": {
@@ -211,8 +211,8 @@
   },
   "portfolio": {
     "eyebrow": "Selected work",
-    "title": "A reel of work across the Indian Ocean",
-    "subtitle": "Hotels, villas, campaigns, drone films and live moments from across Zanzibar.",
+    "title": "Visual stories that drive bookings",
+    "subtitle": "Hotels, villas, campaigns and live moments from across Zanzibar.",
     "filters": {
       "all": "All",
       "video": "Tourism Videos",
@@ -240,7 +240,7 @@
   "tourism": {
     "eyebrow": "Tourism-first",
     "title": "We live and breathe the tourism industry",
-    "subtitle": "Our crew has spent years on the ground with the people who welcome the world to Zanzibar. We understand what sells a room, fills a tour, and brings a destination to life online.",
+    "subtitle": "Years on the ground in Zanzibar. We know what sells a room and fills a tour.",
     "items": {
       "hotels": {
         "title": "Hotels & Resorts",
@@ -290,7 +290,7 @@
   "why": {
     "eyebrow": "Why Zanzibaba",
     "title": "Local roots. International craft.",
-    "subtitle": "Premium quality without the premium-agency overhead — and a crew that knows every tide and rooftop in Zanzibar.",
+    "subtitle": "Premium quality without the premium-agency overhead.",
     "items": {
       "expertise": { "title": "Local Zanzibar Expertise", "desc": "We know the tides, the light, the permits, the hidden beaches, and the stories that make them sing." },
       "quality": { "title": "International Quality Standards", "desc": "Cinema-grade cameras, color pipelines and editorial standards used by global brands." },
@@ -445,7 +445,7 @@
     "whatsappCard": "WhatsApp Producers",
     "emailCard": "Email",
     "studioCard": "Studio",
-    "email_label": "hello@zanzibabastudios.com",
+    "email_label": "info@zanzibaba.com",
     "phone_label": "+255 700 000 000",
     "location_label": "Stone Town, Zanzibar",
     "privacy": "By sending you agree to our privacy-first approach. We never share your details.",
@@ -478,6 +478,36 @@
       "contact": "Contact",
       "live": "Zanzibar Live"
     }
+  },
+  "chat": {
+    "open": "Open sales assistant",
+    "close": "Close chat",
+    "title": "Sales Assistant",
+    "online": "Online",
+    "greeting": "Hi! I'm the Zanzibaba Studios Sales Assistant. I can help estimate a project budget and connect you with a producer. What type of client are you?",
+    "types": {
+      "hotel": "Hotel",
+      "resort": "Resort",
+      "villa": "Villa",
+      "tour": "Tour Operator",
+      "investor": "Investor",
+      "event": "Event Organizer",
+      "other": "Other"
+    },
+    "services_question": "Great choice. For your type, we typically recommend: {services}. Which services are you interested in? (Select all that apply)",
+    "budget_question": "What budget range are you considering for your project?",
+    "contact_intro": "Almost done! Share your details and we'll send a quote summary to your email and WhatsApp.",
+    "form_name": "Your name *",
+    "form_company": "Company name",
+    "form_whatsapp": "WhatsApp number *",
+    "form_email": "Email address",
+    "send": "Send & Get Quote",
+    "summary_intro": "Here's your quote summary:",
+    "summary_detail": "Client: {type}\nServices: {services}\nBudget: {budget}",
+    "summary_contact": "Contact:",
+    "summary_actions": "We've sent this to info@zanzibaba.com and our team will be in touch. You can also reach us directly:",
+    "producer": "Talk to a Producer",
+    "continue": "Continue"
   },
   "common": {
     "play": "Play reel",

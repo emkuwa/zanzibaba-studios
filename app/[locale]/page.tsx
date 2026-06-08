@@ -1,13 +1,13 @@
 import { Hero } from '@/components/site/Hero';
 import { LogoMarquee } from '@/components/site/LogoMarquee';
-import { ClientLogos } from '@/components/site/ClientLogos';
-import { Stats } from '@/components/site/Stats';
-import { Services } from '@/components/site/Services';
+import { Portfolio } from '@/components/site/Portfolio';
 import { FeaturedProjects } from '@/components/site/FeaturedProjects';
 import { Showreel } from '@/components/site/Showreel';
-import { Portfolio } from '@/components/site/Portfolio';
+import { Services } from '@/components/site/Services';
 import { TourismFocus } from '@/components/site/TourismFocus';
 import { ZanzibarLive } from '@/components/site/ZanzibarLive';
+import { ClientLogos } from '@/components/site/ClientLogos';
+import { Stats } from '@/components/site/Stats';
 import { WhyChooseUs } from '@/components/site/WhyChooseUs';
 import { Reviews } from '@/components/site/Reviews';
 import { Pricing } from '@/components/site/Pricing';
@@ -18,14 +18,14 @@ export default function HomePage() {
     <>
       <Hero />
       <LogoMarquee />
-      <ClientLogos />
-      <Stats />
-      <Services />
+      <Portfolio />
       <FeaturedProjects />
       <Showreel />
-      <Portfolio />
+      <Services />
       <TourismFocus />
       <ZanzibarLive />
+      <ClientLogos />
+      <Stats />
       <WhyChooseUs />
       <Reviews />
       <Pricing />
