@@ -1,0 +1,28 @@
+{
+  "ci": {
+    "collect": {
+      "url": [
+        "https://studios.zanzibaba.com/",
+        "https://studios.zanzibaba.com/en",
+        "https://studios.zanzibaba.com/sw",
+        "https://studios.zanzibaba.com/en/services/video-production/zanzibar/hotels",
+        "https://studios.zanzibaba.com/en/services/drone/nungwi/resorts",
+        "https://studios.zanzibaba.com/en/services/hotel-photography/stone-town/villas"
+      ],
+      "numberOfRuns": 3,
+      "settings": {
+        "preset": "desktop",
+        "chromeFlags": "--no-sandbox --headless"
+      }
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "categories:performance": ["warn", { "minScore": 0.85 }],
+        "categories:accessibility": ["error", { "minScore": 0.9 }],
+        "categories:best-practices": ["warn", { "minScore": 0.9 }],
+        "categories:seo": ["error", { "minScore": 0.95 }]
+      }
+    }
+  }
+}

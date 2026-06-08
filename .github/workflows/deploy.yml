@@ -1,0 +1,73 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Required GitHub Secrets (set in repo Settings → Secrets and variables → Actions):
+#   VERCEL_TOKEN      — Personal token from vercel.com/account/tokens
+#   VERCEL_ORG_ID     — Team/org ID (auto-discovered)
+#   VERCEL_PROJECT_ID — Project ID (auto-created on first deploy)
+
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+jobs:
+  deploy:
+    name: Deploy to Vercel
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Type-check
+        run: npx tsc --noEmit
+
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: '1'
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel@latest
+
+      - name: Pull Vercel env
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Deploy to Vercel
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Smoke test
+        run: |
+          sleep 10
+          HTTP=$(curl -s -o /dev/null -w "%{http_code}" https://studios.zanzibaba.com/ 2>/dev/null || echo "000")
+          echo "Homepage HTTP: $HTTP"
+          if [ "$HTTP" != "200" ]; then
+            echo "::warning::Homepage not yet returning 200 (DNS may still be propagating)"
+          fi
+
+  lighthouse:
+    name: Lighthouse audit
+    needs: deploy
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Lighthouse
+        uses: treosh/lighthouse-ci-action@v11
+        with:
+          url: https://studios.zanzibaba.com/
+          budgetPath: ./lighthouse-budget.json
+          temporaryPublicStorage: true
+          uploadArtifacts: true
