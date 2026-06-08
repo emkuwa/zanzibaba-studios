@@ -61,9 +61,9 @@ export function VideoBackground({
           preload="metadata"
         />
       )}
-      {overlay === 'dark' && <div className="absolute inset-0 bg-ink-950/55" />}
+      {overlay === 'dark' && <div className="absolute inset-0 bg-ink-950/40" />}
       {overlay === 'gradient' && (
-        <div className="absolute inset-0 bg-gradient-to-b from-ink-950/70 via-ink-950/40 to-ink-950" />
+        <div className="absolute inset-0 bg-gradient-to-b from-ink-950/50 via-ink-950/20 to-ink-950/50" />
       )}
     </div>
   );

@@ -43,11 +43,11 @@ export function Hero() {
       <VideoBackground src={HERO_VIDEO} poster={HERO_POSTER} />
 
       <div
-        className="absolute inset-0 bg-gradient-to-b from-ink-950/30 via-transparent to-ink-950"
+        className="absolute inset-0 bg-gradient-to-b from-ink-950/20 via-transparent to-ink-950/30"
         aria-hidden="true"
       />
       <div
-        className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_30%,rgba(0,0,0,0.55)_100%)]"
+        className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_30%,rgba(0,0,0,0.30)_100%)]"
         aria-hidden="true"
       />
       <div className="absolute inset-0 bg-grid opacity-[0.06]" aria-hidden="true" />
