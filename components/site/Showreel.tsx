@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { ArrowRight, Film } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Reveal } from './Reveal';
 import Link from 'next/link';
 
@@ -34,7 +34,7 @@ export function Showreel() {
           <div className="relative grid min-h-[480px] place-items-center p-8 text-center sm:min-h-[560px] md:min-h-[640px] md:p-16">
             <Reveal className="flex flex-col items-center">
               <div className="inline-flex items-center gap-2 rounded-full border border-coral-400/40 bg-coral-500/15 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.28em] text-coral-200">
-                <Film className="h-3 w-3" aria-hidden="true" />
+                <span className="h-1.5 w-1.5 rounded-full bg-coral-400" aria-hidden="true" />
                 {t('eyebrow')}
               </div>
 

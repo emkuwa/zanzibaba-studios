@@ -1,22 +1,21 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import {
-  Video,
-  Camera,
-  Plane,
-  Building2,
-  Film,
-  Megaphone,
-  Smartphone,
-  CalendarDays,
-  Radio,
-  Clapperboard,
-  ArrowUpRight,
-} from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import { Reveal } from './Reveal';
 
-const ICONS = [Video, Camera, Plane, Building2, Film, Megaphone, Smartphone, CalendarDays, Radio, Clapperboard];
+const LABELS: Record<string, string> = {
+  tourismVideo: 'Tourism',
+  hotelPhoto: 'Photography',
+  drone: 'Drone',
+  villa: 'Resort',
+  documentary: 'Documentary',
+  campaign: 'Campaign',
+  social: 'Social',
+  events: 'Event',
+  live: 'Live',
+  commercial: 'Commercial',
+};
 
 const KEYS = [
   'tourismVideo',
@@ -66,7 +65,6 @@ export function Services() {
 
         <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           {KEYS.map((k, i) => {
-            const Icon = ICONS[i];
             const paddedIndex = String(i + 1).padStart(2, '0');
             const img = SERVICE_IMAGES[k];
             return (
@@ -92,8 +90,8 @@ export function Services() {
                       className="absolute inset-0 bg-gradient-to-t from-ink-950/10 via-transparent to-transparent"
                       aria-hidden="true"
                     />
-                    <div className="absolute left-4 top-4 grid h-11 w-11 place-items-center rounded-2xl border border-white/20 bg-ink-950/60 backdrop-blur-md">
-                      <Icon className="h-5 w-5 text-coral-300" aria-hidden="true" />
+                    <div className="absolute left-4 top-4 rounded-full border border-white/15 bg-ink-950/70 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-lagoon-300 backdrop-blur-md">
+                      {LABELS[k]}
                     </div>
                     <div className="absolute right-4 top-4 text-[11px] uppercase tracking-[0.32em] font-medium text-lagoon-300/90">
                       {t('counter', { index: paddedIndex })}

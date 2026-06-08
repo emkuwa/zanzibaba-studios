@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { ArrowRight, Play, Volume2, ChevronDown, Star } from 'lucide-react';
+import { ArrowRight, ChevronDown, Star } from 'lucide-react';
 import { Link } from '@/routing';
 import { useEffect, useState } from 'react';
 
@@ -92,7 +92,7 @@ export function Hero() {
                 />
               </Link>
               <Link href="/#portfolio" className="btn-ghost group">
-                <Play className="h-4 w-4 fill-current" aria-hidden="true" />
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
                 {t('ctaSecondary')}
               </Link>
             </div>
@@ -129,7 +129,6 @@ export function Hero() {
           className="inline-block h-12 w-px bg-gradient-to-b from-white/40 to-transparent"
           aria-hidden="true"
         />
-        <Volume2 className="h-3.5 w-3.5" aria-hidden="true" />
       </div>
     </section>
   );
