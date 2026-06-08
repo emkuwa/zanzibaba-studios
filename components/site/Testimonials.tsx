@@ -18,7 +18,7 @@ export function Testimonials() {
           </p>
           <h2
             id="testimonials-title"
-            className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl"
+            className="mt-5 text-balance text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl"
           >
             {t('title')}
           </h2>
@@ -34,21 +34,21 @@ export function Testimonials() {
                     <Star key={idx} className="h-3.5 w-3.5 fill-current" aria-hidden="true" />
                   ))}
                 </div>
-                <blockquote className="mt-5 flex-1 text-pretty text-base leading-relaxed text-white/85">
-                  <p>“{t(`items.${k}.quote`)}”</p>
+                <blockquote className="mt-5 flex-1 text-pretty text-lg font-medium leading-relaxed text-white/90">
+                  <p>"{t(`items.${k}.quote`)}"</p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-3 border-t border-white/5 pt-5">
                   <div
-                    className="grid h-10 w-10 place-items-center rounded-full bg-gradient-to-br from-coral-500 to-lagoon-500 text-sm font-semibold text-white"
+                    className="grid h-10 w-10 place-items-center rounded-full bg-gradient-to-br from-coral-500 to-lagoon-500 text-sm font-bold text-white"
                     aria-hidden="true"
                   >
                     {t(`items.${k}.name`).charAt(0)}
                   </div>
                   <div>
-                    <div className="text-sm font-semibold text-white">
+                    <div className="text-base font-semibold text-white">
                       {t(`items.${k}.name`)}
                     </div>
-                    <div className="text-xs text-white/55">{t(`items.${k}.role`)}</div>
+                    <div className="text-sm font-medium text-white/75">{t(`items.${k}.role`)}</div>
                   </div>
                 </figcaption>
               </figure>

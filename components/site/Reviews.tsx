@@ -42,7 +42,7 @@ export function Reviews() {
           <div className="mt-5 flex flex-wrap items-end justify-between gap-4">
             <h2
               id="reviews-title"
-              className="max-w-2xl text-balance text-4xl font-semibold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl"
+              className="max-w-2xl text-balance text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl"
             >
               {t('title')}
             </h2>
@@ -51,7 +51,7 @@ export function Reviews() {
                 type="button"
                 onClick={prev}
                 aria-label="Previous reviews"
-                className="grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/[0.04] text-white/70 transition-colors hover:border-coral-400/50 hover:text-coral-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-400"
+                className="grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/[0.04] text-white/75 transition-colors hover:border-coral-400/50 hover:text-coral-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-400"
               >
                 <ChevronLeft className="h-5 w-5" aria-hidden="true" />
               </button>
@@ -65,7 +65,7 @@ export function Reviews() {
               </button>
             </div>
           </div>
-          <p className="mt-5 max-w-2xl text-pretty text-base leading-relaxed text-white/65 md:text-lg">
+          <p className="mt-5 max-w-2xl text-pretty text-lg font-medium leading-relaxed text-white/85 md:text-xl">
             {t('subtitle')}
           </p>
         </Reveal>
@@ -92,7 +92,7 @@ export function Reviews() {
                     />
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-1.5">
-                        <div className="truncate text-sm font-semibold text-white">
+                        <div className="truncate text-base font-semibold text-white">
                           {t(`items.${k}.name`)}
                         </div>
                         <CheckCircle2
@@ -100,10 +100,10 @@ export function Reviews() {
                           aria-label={t('verified')}
                         />
                       </div>
-                      <div className="truncate text-xs text-white/55">
+                      <div className="truncate text-sm font-medium text-white/75">
                         {t(`items.${k}.role`)}
                       </div>
-                      <div className="mt-1 text-[10px] uppercase tracking-[0.18em] text-white/35">
+                      <div className="mt-1 text-[11px] uppercase tracking-[0.18em] font-medium text-white/55">
                         {t(`items.${k}.date`)} · {t('source')}
                       </div>
                     </div>
@@ -123,18 +123,18 @@ export function Reviews() {
                     <span className="text-xs font-semibold text-white">
                       {t(`items.${k}.rating`)}
                     </span>
-                    <span className="text-[10px] uppercase tracking-[0.18em] text-white/40">
+                    <span className="text-[11px] uppercase tracking-[0.2em] font-medium text-white/60">
                       Google
                     </span>
                   </div>
 
                   {/* Quote */}
-                  <blockquote className="mt-5 flex-1 text-pretty text-sm leading-relaxed text-white/85 md:text-base">
-                    <p>“{t(`items.${k}.quote`)}”</p>
+                  <blockquote className="mt-5 flex-1 text-pretty text-base font-medium leading-relaxed text-white/90 md:text-lg">
+                    <p>"{t(`items.${k}.quote`)}"</p>
                   </blockquote>
 
                   {/* Verified badge */}
-                  <div className="mt-5 flex items-center gap-2 border-t border-white/5 pt-4 text-[10px] uppercase tracking-[0.18em] text-lagoon-300/80">
+                  <div className="mt-5 flex items-center gap-2 border-t border-white/5 pt-4 text-[11px] uppercase tracking-[0.2em] font-semibold text-lagoon-300/90">
                     <CheckCircle2 className="h-3 w-3" aria-hidden="true" />
                     {t('verified')}
                   </div>

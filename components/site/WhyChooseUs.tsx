@@ -41,11 +41,11 @@ export function WhyChooseUs() {
             </p>
             <h2
               id="why-title"
-              className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight md:text-5xl"
+              className="mt-5 text-balance text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl"
             >
               {t('title')}
             </h2>
-            <p className="mt-5 max-w-md text-pretty text-base leading-relaxed text-white/65 md:text-lg">
+            <p className="mt-5 max-w-md text-pretty text-lg font-medium leading-relaxed text-white/85 md:text-xl">
               {t('subtitle')}
             </p>
             <div className="mt-8 inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-xs text-white/70">

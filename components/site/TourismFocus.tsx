@@ -24,10 +24,10 @@ export function TourismFocus() {
       aria-labelledby="tourism-title"
     >
       <div
-        className="pointer-events-none absolute inset-0 opacity-50"
+        className="pointer-events-none absolute inset-0 opacity-30"
         style={{
           background:
-            'radial-gradient(800px circle at 80% 10%, rgba(255,90,20,0.15), transparent 60%), radial-gradient(800px circle at 10% 90%, rgba(34,211,238,0.12), transparent 60%)',
+            'radial-gradient(800px circle at 80% 10%, rgba(255,90,20,0.10), transparent 60%), radial-gradient(800px circle at 10% 90%, rgba(34,211,238,0.08), transparent 60%)',
         }}
         aria-hidden="true"
       />
@@ -39,50 +39,53 @@ export function TourismFocus() {
           </p>
           <h2
             id="tourism-title"
-            className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl"
+            className="mt-5 text-balance text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl"
           >
             {t('title')}
           </h2>
-          <p className="mt-5 max-w-2xl text-pretty text-base leading-relaxed text-white/65 md:text-lg">
+          <p className="mt-5 max-w-2xl text-pretty text-lg font-medium leading-relaxed text-white/85 md:text-xl">
             {t('subtitle')}
           </p>
         </Reveal>
 
-        <div className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {/* Mobile: 1 card per row, large images. Tablet: 2 cols. Desktop: 3 cols. */}
+        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
           {KEYS.map((k, i) => {
             const Icon = ICONS[i];
             return (
               <Reveal key={k} delay={i * 70}>
-                <div className="group relative h-full overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-ink-800/80 to-ink-900/60 transition-colors hover:border-lagoon-300/30">
-                  {/* Image */}
-                  <div className="relative h-44 w-full overflow-hidden sm:h-48">
+                <div className="group relative h-full overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-ink-800/60 to-ink-900/40 transition-all duration-500 hover:border-lagoon-300/30 hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.5)]">
+                  {/* Image — large, 4:5 aspect ratio, images are the focus */}
+                  <div className="relative aspect-[4/5] w-full overflow-hidden">
                     <img
                       src={IMAGES[k]}
                       alt={t(`items.${k}.imgAlt`)}
                       loading="lazy"
                       decoding="async"
                       width={1200}
-                      height={800}
-                      className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                      height={1500}
+                      className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                     />
+                    {/* Lighter gradient — only at bottom for text legibility */}
                     <div
-                      className="absolute inset-0 bg-gradient-to-t from-ink-900/95 via-ink-900/40 to-transparent"
+                      className="absolute inset-0 bg-gradient-to-t from-ink-950/70 via-transparent to-transparent"
                       aria-hidden="true"
                     />
-                    <div className="absolute left-4 top-4 grid h-12 w-12 place-items-center rounded-2xl border border-white/30 bg-ink-900/70 backdrop-blur-md">
-                      <Icon className="h-5 w-5 text-lagoon-300 transition-colors group-hover:text-coral-300" aria-hidden="true" />
-                    </div>
-                    <div className="absolute right-4 top-4 text-[10px] uppercase tracking-[0.32em] text-white/55">
+                    {/* Number badge */}
+                    <div className="absolute right-4 top-4 text-[11px] uppercase tracking-[0.2em] font-semibold text-white/80">
                       0{i + 1}
                     </div>
                   </div>
 
-                  {/* Body */}
+                  {/* Body — text outside image, clear and readable */}
                   <div className="relative p-6">
-                    <h3 className="font-display text-xl font-semibold text-white">
+                    <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] text-lagoon-300">
+                      <Icon className="h-5 w-5" aria-hidden="true" />
+                    </div>
+                    <h3 className="font-display text-xl font-bold leading-snug text-white md:text-2xl">
                       {t(`items.${k}.title`)}
                     </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-white/65">
+                    <p className="mt-3 text-base font-medium leading-relaxed text-white/80">
                       {t(`items.${k}.desc`)}
                     </p>
                   </div>

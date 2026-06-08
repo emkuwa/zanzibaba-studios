@@ -33,11 +33,11 @@ export function Stats() {
             </p>
             <h2
               id="stats-title"
-              className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight md:text-5xl"
+              className="mt-5 text-balance text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl"
             >
               {t('title')}
             </h2>
-            <p className="mt-5 max-w-md text-pretty text-base leading-relaxed text-white/65 md:text-lg">
+            <p className="mt-5 max-w-md text-pretty text-lg font-medium leading-relaxed text-white/85 md:text-xl">
               {t('subtitle')}
             </p>
           </Reveal>
@@ -53,7 +53,7 @@ export function Stats() {
                     />
                     <div className="relative">
                       <div
-                        className="font-display text-6xl font-semibold leading-none tracking-tight text-white md:text-7xl lg:text-8xl"
+                        className="font-display text-6xl font-bold leading-none tracking-tight text-white md:text-7xl lg:text-8xl"
                         style={{
                           background:
                             'linear-gradient(135deg, #ffffff 0%, #f5f3ee 50%, #ff5a14 100%)',

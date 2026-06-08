@@ -53,7 +53,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-grid opacity-[0.06]" aria-hidden="true" />
 
       <div className="pointer-events-none absolute inset-x-0 top-0 z-10 pt-20 md:pt-28">
-        <div className="container-z flex items-center justify-between text-[10px] uppercase tracking-[0.32em] text-white/55">
+        <div className="container-z flex items-center justify-between text-[11px] uppercase tracking-[0.32em] text-white/70 font-medium">
           <div className="flex items-center gap-2">
             <span
               className="inline-block h-1.5 w-1.5 animate-pulse-soft rounded-full bg-coral-500"
@@ -79,7 +79,7 @@ export function Hero() {
               {t('title')}
             </h1>
 
-            <p className="mt-6 max-w-2xl text-pretty text-base leading-relaxed text-white/75 sm:text-lg md:text-xl">
+            <p className="mt-6 max-w-2xl text-pretty text-lg font-medium leading-relaxed text-white/90 sm:text-xl md:text-2xl">
               {t('subtitle')}
             </p>
 
@@ -101,10 +101,10 @@ export function Hero() {
           <div className="mt-12 grid max-w-4xl grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
             {(['stat1', 'stat2', 'stat3', 'stat4'] as const).map((k) => (
               <div key={k} className="glass rounded-2xl px-5 py-4">
-                <div className="font-display text-3xl font-semibold text-white md:text-4xl">
+                <div className="font-display text-3xl font-bold text-white md:text-4xl">
                   {t(`${k}.value`)}
                 </div>
-                <div className="mt-1 text-[10px] uppercase tracking-[0.28em] text-white/55">
+                <div className="mt-1 text-[11px] uppercase tracking-[0.28em] font-medium text-white/70">
                   {t(`${k}.label`)}
                 </div>
               </div>
@@ -116,14 +116,14 @@ export function Hero() {
       <div className="absolute inset-x-0 bottom-5 z-10 flex justify-center">
         <a
           href="#logos"
-          className="group inline-flex flex-col items-center gap-2 rounded-md text-[10px] uppercase tracking-[0.32em] text-white/60 transition-colors hover:text-white"
+          className="group inline-flex flex-col items-center gap-2 rounded-md text-[11px] uppercase tracking-[0.32em] font-medium text-white/75 transition-colors hover:text-white"
         >
           <span>{t('scroll')}</span>
           <ChevronDown className="h-4 w-4 animate-bounce" aria-hidden="true" />
         </a>
       </div>
 
-      <div className="absolute right-6 top-1/2 z-10 hidden -translate-y-1/2 flex-col items-center gap-3 text-[10px] uppercase tracking-[0.32em] text-white/45 lg:flex">
+      <div className="absolute right-6 top-1/2 z-10 hidden -translate-y-1/2 flex-col items-center gap-3 text-[11px] uppercase tracking-[0.32em] font-medium text-white/60 lg:flex">
         <span className="rotate-90 [writing-mode:vertical-rl]">{t('reel')}</span>
         <span
           className="inline-block h-12 w-px bg-gradient-to-b from-white/40 to-transparent"

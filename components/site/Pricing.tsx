@@ -22,10 +22,10 @@ export function Pricing() {
             <span className="inline-block h-1 w-6 bg-lagoon-400" aria-hidden="true" />
             <span>{t('eyebrow')}</span>
           </p>
-          <h2 className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl">
+          <h2 className="mt-5 text-balance text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl">
             {t('title')}
           </h2>
-          <p className="mt-5 max-w-2xl text-pretty text-base leading-relaxed text-white/65 md:text-lg">
+          <p className="mt-5 max-w-2xl text-pretty text-lg font-medium leading-relaxed text-white/85 md:text-xl">
             {t('subtitle')}
           </p>
         </Reveal>
@@ -54,10 +54,10 @@ export function Pricing() {
                     <div className="text-[10px] uppercase tracking-[0.32em] text-lagoon-300/80">
                       {t('packageLabel', { index: paddedIndex })}
                     </div>
-                    <h3 className="mt-2 font-display text-2xl font-semibold text-white">
+                    <h3 className="mt-2 font-display text-2xl font-bold text-white">
                       {t(`items.${key}.name`)}
                     </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-white/65">
+                    <p className="mt-2 text-base font-medium leading-relaxed text-white/80">
                       {t(`items.${key}.desc`)}
                     </p>
                   </div>

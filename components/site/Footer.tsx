@@ -51,7 +51,7 @@ export function Footer() {
             >
               <Logo className="h-9 w-9 text-coral-500" />
               <div className="flex flex-col leading-none">
-                <span className="font-display text-lg font-semibold tracking-tight text-white">
+                <span className="font-display text-xl font-bold tracking-tight text-white">
                   {tBr('short')}
                 </span>
                 <span className="text-[10px] uppercase tracking-[0.32em] text-lagoon-300/80">
@@ -59,7 +59,7 @@ export function Footer() {
                 </span>
               </div>
             </Link>
-            <p className="mt-5 max-w-md text-pretty text-sm leading-relaxed text-white/65">
+            <p className="mt-5 max-w-md text-pretty text-base font-medium leading-relaxed text-white/85">
               {t('tagline')}
             </p>
 
@@ -70,7 +70,7 @@ export function Footer() {
               >
                 {tNewsletter('title')}
               </label>
-              <p className="mt-1 text-sm text-white/60">{tNewsletter('desc')}</p>
+              <p className="mt-1 text-sm font-medium text-white/75">{tNewsletter('desc')}</p>
               <div className="mt-4 flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.04] p-1.5 pl-5 transition-colors focus-within:border-lagoon-300/60">
                 <input
                   id="newsletter-email"
@@ -100,7 +100,7 @@ export function Footer() {
 
           <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:col-span-7">
             <div>
-              <h2 className="text-[11px] font-semibold uppercase tracking-[0.32em] text-white/50">
+              <h2 className="text-[11px] font-bold uppercase tracking-[0.28em] text-white/70">
                 {t('explore')}
               </h2>
               <ul className="mt-5 space-y-3 text-sm">
@@ -132,7 +132,7 @@ export function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="text-[11px] font-semibold uppercase tracking-[0.32em] text-white/50">
+              <h2 className="text-[11px] font-bold uppercase tracking-[0.28em] text-white/70">
                 {t('services')}
               </h2>
               <ul className="mt-5 space-y-3 text-sm">
@@ -144,7 +144,7 @@ export function Footer() {
               </ul>
             </div>
             <div className="col-span-2 sm:col-span-1">
-              <h2 className="text-[11px] font-semibold uppercase tracking-[0.32em] text-white/50">
+              <h2 className="text-[11px] font-bold uppercase tracking-[0.28em] text-white/70">
                 {t('connect')}
               </h2>
               <ul className="mt-5 space-y-3 text-sm">
@@ -158,7 +158,7 @@ export function Footer() {
                     {siteConfig.phone}
                   </a>
                 </li>
-                <li className="text-white/55">{siteConfig.address}</li>
+                <li className="text-sm font-medium text-white/75">{siteConfig.address}</li>
               </ul>
               <div className="mt-5 flex items-center gap-2">
                 {socials.map(({ Icon, href, label }) => (

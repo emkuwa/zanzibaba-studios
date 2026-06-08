@@ -36,7 +36,7 @@ export function Showreel() {
         <div className="relative isolate overflow-hidden rounded-3xl border border-white/10 bg-ink-900 sm:rounded-[28px]">
           <VideoBackground src={REEL_VIDEO} poster={REEL_POSTER} overlay="gradient" autoPlay={false} />
           <div
-            className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/60 to-ink-950/30"
+            className="absolute inset-0 bg-gradient-to-t from-ink-950/50 via-transparent to-transparent"
             aria-hidden="true"
           />
           <div className="absolute inset-0 bg-grid opacity-[0.06]" aria-hidden="true" />
@@ -55,18 +55,18 @@ export function Showreel() {
 
           <div className="relative grid min-h-[480px] place-items-center p-8 text-center sm:min-h-[560px] md:min-h-[640px] md:p-16">
             <Reveal className="flex flex-col items-center">
-              <div className="inline-flex items-center gap-2 rounded-full border border-coral-400/40 bg-coral-500/15 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.32em] text-coral-200">
+              <div className="inline-flex items-center gap-2 rounded-full border border-coral-400/40 bg-coral-500/15 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.28em] text-coral-200">
                 <Film className="h-3 w-3" aria-hidden="true" />
                 {t('eyebrow')}
               </div>
 
               <h2
                 id="showreel-title"
-                className="mt-6 max-w-2xl text-balance font-display text-4xl font-semibold leading-[1] tracking-tight text-white sm:text-5xl md:text-6xl"
+                className="mt-6 max-w-2xl text-balance font-display text-5xl font-bold leading-[1] tracking-tight text-white sm:text-6xl md:text-7xl"
               >
                 {t('title')}
               </h2>
-              <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-white/75 md:text-lg">
+              <p className="mt-5 max-w-xl text-pretty text-lg font-medium leading-relaxed text-white/90 md:text-xl">
                 {t('subtitle')}
               </p>
 
@@ -92,10 +92,10 @@ export function Showreel() {
                 </button>
 
                 <div className="flex flex-col items-start text-left">
-                  <span className="font-display text-lg font-semibold text-white">
+                  <span className="font-display text-xl font-bold text-white">
                     {playing ? t('pause') : t('play')}
                   </span>
-                  <span className="text-xs text-white/55">
+                  <span className="text-sm font-medium text-white/75">
                     {t('duration')} · 4K · Dolby Audio
                   </span>
                 </div>
@@ -105,7 +105,7 @@ export function Showreel() {
                 href="https://vimeo.com/zanzibabastudios"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-8 inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.28em] text-white/55 transition-colors hover:text-white"
+                className="mt-8 inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.28em] text-white/75 transition-colors hover:text-white"
               >
                 {t('viewFull')}
                 <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />

@@ -56,10 +56,10 @@ export function Portfolio() {
             <span className="inline-block h-1 w-6 bg-lagoon-400" aria-hidden="true" />
             <span>{t('eyebrow')}</span>
           </p>
-          <h2 className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl">
+          <h2 className="mt-5 text-balance text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl">
             {t('title')}
           </h2>
-          <p className="mt-5 max-w-2xl text-pretty text-base leading-relaxed text-white/65 md:text-lg">
+          <p className="mt-5 max-w-2xl text-pretty text-lg font-medium leading-relaxed text-white/85 md:text-xl">
             {t('subtitle')}
           </p>
         </Reveal>
@@ -80,10 +80,10 @@ export function Portfolio() {
                   aria-selected={isActive}
                   aria-controls="portfolio-grid"
                   className={cn(
-                    'inline-flex items-center gap-2 rounded-full border px-4 py-2 text-[12px] font-medium uppercase tracking-wider transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-400',
+                    'inline-flex items-center gap-2 rounded-full border px-4 py-2 text-[12px] font-semibold uppercase tracking-wider transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-400',
                     isActive
                       ? 'border-coral-400/60 bg-coral-500/15 text-coral-200 shadow-glow-coral'
-                      : 'border-white/10 bg-white/[0.03] text-white/65 hover:border-white/20 hover:text-white'
+                      : 'border-white/10 bg-white/[0.03] text-white/75 hover:border-white/20 hover:text-white'
                   )}
                 >
                   {Icon && <Icon className="h-3.5 w-3.5" aria-hidden="true" />}
@@ -138,9 +138,9 @@ export function Portfolio() {
                       height={1500}
                       className="h-full w-full object-cover transition-transform duration-[1500ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
                     />
-                    {/* Subtle bottom gradient for title legibility */}
+                    {/* Lighter bottom gradient for title legibility — images stay vibrant */}
                     <div
-                      className="absolute inset-0 bg-gradient-to-t from-ink-950/95 via-ink-950/30 to-transparent"
+                      className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-transparent to-transparent"
                       aria-hidden="true"
                     />
 
@@ -156,18 +156,18 @@ export function Portfolio() {
 
                     {/* Tag — top right */}
                     <div className="absolute right-5 top-5">
-                      <span className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-ink-950/60 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.24em] text-lagoon-300/90 backdrop-blur">
+                      <span className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-ink-950/50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-lagoon-300 backdrop-blur">
                         {t(`items.${item.key}.tag`)}
                       </span>
                     </div>
 
                     {/* Title overlay at bottom */}
                     <div className="absolute inset-x-0 bottom-0 p-5 md:p-6">
-                      <h3 className="font-display text-xl font-semibold leading-tight text-white md:text-2xl">
+                      <h3 className="font-display text-xl font-bold leading-tight text-white md:text-2xl">
                         {t(`items.${item.key}.title`)}
                       </h3>
                       <div className="mt-3 flex items-center justify-between border-t border-white/10 pt-3">
-                        <span className="text-[11px] uppercase tracking-[0.28em] text-white/55">
+                        <span className="text-[11px] uppercase tracking-[0.2em] font-medium text-white/75">
                           {t('viewProject')}
                         </span>
                         <span

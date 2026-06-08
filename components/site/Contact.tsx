@@ -84,10 +84,10 @@ export function Contact() {
               <span className="inline-block h-1 w-6 bg-coral-500" aria-hidden="true" />
               <span>{t('eyebrow')}</span>
             </p>
-            <h2 className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight md:text-5xl">
+            <h2 className="mt-5 text-balance text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl">
               {t('title')}
             </h2>
-            <p className="mt-5 max-w-md text-pretty text-base leading-relaxed text-white/65 md:text-lg">
+            <p className="mt-5 max-w-md text-pretty text-lg font-medium leading-relaxed text-white/85 md:text-xl">
               {t('subtitle')}
             </p>
 
@@ -103,8 +103,8 @@ export function Contact() {
                     <MessageCircle className="h-5 w-5" aria-hidden="true" />
                   </span>
                   <div>
-                    <div className="text-sm font-semibold text-white">{t('whatsappCard')}</div>
-                    <div className="text-xs text-white/65">
+                    <div className="text-base font-semibold text-white">{t('whatsappCard')}</div>
+                    <div className="text-sm font-medium text-white/75">
                       {t('whatsapp')} • {siteConfig.whatsappDisplay}
                     </div>
                   </div>
@@ -121,8 +121,8 @@ export function Contact() {
                     <Mail className="h-5 w-5" aria-hidden="true" />
                   </span>
                   <div>
-                    <div className="text-sm font-semibold text-white">{t('emailCard')}</div>
-                    <div className="text-xs text-white/65">{t('email_label')}</div>
+                    <div className="text-base font-semibold text-white">{t('emailCard')}</div>
+                    <div className="text-sm font-medium text-white/75">{t('email_label')}</div>
                   </div>
                 </div>
                 <ArrowUpRight className="h-4 w-4 text-white/50" aria-hidden="true" />
@@ -134,8 +134,8 @@ export function Contact() {
                     <MapPin className="h-5 w-5" aria-hidden="true" />
                   </span>
                   <div>
-                    <div className="text-sm font-semibold text-white">{t('studioCard')}</div>
-                    <div className="text-xs text-white/65">{t('location_label')}</div>
+                    <div className="text-base font-semibold text-white">{t('studioCard')}</div>
+                    <div className="text-sm font-medium text-white/75">{t('location_label')}</div>
                   </div>
                 </div>
                 <Phone className="h-4 w-4 text-white/50" aria-hidden="true" />
@@ -211,7 +211,7 @@ export function Contact() {
                 <div className="sm:col-span-2">
                   <label
                     htmlFor="message"
-                    className="mb-1.5 block text-[11px] font-semibold uppercase tracking-[0.28em] text-white/55"
+                    className="mb-1.5 block text-[11px] font-bold uppercase tracking-[0.24em] text-white/75"
                   >
                     {t('message')}
                     <span className="text-coral-400"> *</span>
@@ -228,7 +228,7 @@ export function Contact() {
                 </div>
 
                 <div className="mt-2 flex flex-wrap items-center justify-between gap-4 sm:col-span-2">
-                  <p className="max-w-xs text-xs text-white/50">{t('privacy')}</p>
+                  <p className="max-w-xs text-sm font-medium text-white/65">{t('privacy')}</p>
                   <button
                     type="submit"
                     disabled={status === 'sending'}
@@ -289,7 +289,7 @@ function Field({
     <div>
       <label
         htmlFor={id}
-        className="mb-1.5 block text-[11px] font-semibold uppercase tracking-[0.28em] text-white/55"
+        className="mb-1.5 block text-[11px] font-bold uppercase tracking-[0.24em] text-white/75"
       >
         {label}
         {required && <span className="text-coral-400"> *</span>}
@@ -302,7 +302,7 @@ function Field({
         value={value}
         onChange={onChange}
         autoComplete={autoComplete}
-        className="w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm text-white placeholder:text-white/35 transition-colors focus:border-coral-400/50 focus:outline-none"
+        className="w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-base text-white placeholder:text-white/45 transition-colors focus:border-coral-400/50 focus:outline-none"
       />
     </div>
   );
@@ -328,7 +328,7 @@ function Select({
     <div>
       <label
         htmlFor={id}
-        className="mb-1.5 block text-[11px] font-semibold uppercase tracking-[0.28em] text-white/55"
+        className="mb-1.5 block text-[11px] font-bold uppercase tracking-[0.24em] text-white/75"
       >
         {label}
       </label>
@@ -337,7 +337,7 @@ function Select({
         name={name}
         value={value}
         onChange={onChange}
-        className="w-full appearance-none rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm text-white transition-colors focus:border-coral-400/50 focus:outline-none"
+        className="w-full appearance-none rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-base text-white transition-colors focus:border-coral-400/50 focus:outline-none"
         style={{
           backgroundImage:
             "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23ffffff80'%3E%3Cpath d='M5.23 7.21a.75.75 0 011.06.02L10 11.06l3.71-3.83a.75.75 0 111.08 1.04l-4.25 4.39a.75.75 0 01-1.08 0L5.21 8.27a.75.75 0 01.02-1.06z'/%3E%3C/svg%3E\")",

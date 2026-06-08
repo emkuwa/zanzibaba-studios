@@ -36,11 +36,11 @@ export function FeaturedProjects() {
           </p>
           <h2
             id="featured-title"
-            className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl"
+            className="mt-5 text-balance text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl"
           >
             {t('title')}
           </h2>
-          <p className="mt-5 max-w-2xl text-pretty text-base leading-relaxed text-white/65 md:text-lg">
+          <p className="mt-5 max-w-2xl text-pretty text-lg font-medium leading-relaxed text-white/85 md:text-xl">
             {t('subtitle')}
           </p>
         </Reveal>
@@ -77,10 +77,10 @@ export function FeaturedProjects() {
                       className="h-full w-full object-cover transition-transform duration-[1500ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105"
                     />
                     <div
-                      className="absolute inset-0 bg-gradient-to-t from-ink-950/80 via-ink-950/10 to-transparent md:bg-gradient-to-r md:from-ink-950/60 md:via-transparent md:to-transparent"
+                      className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-transparent to-transparent md:bg-gradient-to-r md:from-ink-950/50 md:via-transparent md:to-transparent"
                       aria-hidden="true"
                     />
-                    <div className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full border border-coral-400/40 bg-coral-500/20 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.28em] text-coral-200 backdrop-blur-md">
+                    <div className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full border border-coral-400/40 bg-coral-500/20 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.24em] text-coral-200 backdrop-blur-md">
                       <span
                         className="h-1.5 w-1.5 rounded-full bg-coral-400"
                         aria-hidden="true"
@@ -91,23 +91,23 @@ export function FeaturedProjects() {
 
                   {/* Content */}
                   <div className="relative flex flex-1 flex-col p-6 md:p-8">
-                    <div className="text-[10px] uppercase tracking-[0.32em] text-lagoon-300/80">
+                    <div className="text-[11px] uppercase tracking-[0.28em] font-semibold text-lagoon-300/90">
                       {t('client')}
                     </div>
-                    <div className="mt-1 text-sm font-semibold text-white">
+                    <div className="mt-1 text-base font-semibold text-white">
                       {t(`items.${k}.client`)}
                     </div>
 
-                    <h3 className="mt-5 font-display text-2xl font-semibold leading-tight text-white md:text-3xl">
+                    <h3 className="mt-5 font-display text-2xl font-bold leading-tight text-white md:text-3xl">
                       {t(`items.${k}.title`)}
                     </h3>
 
-                    <div className="mt-5 grid grid-cols-1 gap-2 text-xs">
+                    <div className="mt-5 grid grid-cols-1 gap-2 text-sm">
                       <div>
-                        <span className="text-[10px] uppercase tracking-[0.28em] text-white/40">
+                        <span className="text-[11px] uppercase tracking-[0.24em] font-medium text-white/60">
                           {t('scope')}
                         </span>
-                        <div className="mt-1 text-white/75">{t(`items.${k}.scope`)}</div>
+                        <div className="mt-1 text-white/85">{t(`items.${k}.scope`)}</div>
                       </div>
                     </div>
 
