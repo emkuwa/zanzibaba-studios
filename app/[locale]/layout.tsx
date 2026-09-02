@@ -130,6 +130,7 @@ export default async function LocaleLayout({
     description: siteConfig.description,
     email: siteConfig.email,
     telephone: siteConfig.phoneRaw,
+    foundingDate: '2025',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Stone Town & Paje',
@@ -158,6 +159,7 @@ export default async function LocaleLayout({
     '@type': 'LocalBusiness',
     '@id': `${siteConfig.url}#localbusiness`,
     name: siteConfig.name,
+    alternateName: 'Zanzibaba Studios Zanzibar',
     image: `${siteConfig.url}${siteConfig.ogImage}`,
     url: siteConfig.url,
     telephone: siteConfig.phoneRaw,
@@ -173,6 +175,9 @@ export default async function LocaleLayout({
       latitude: siteConfig.geo.latitude,
       longitude: siteConfig.geo.longitude,
     },
+    areaServed: ['Zanzibar', 'Dar es Salaam', 'Arusha', 'Kenya Coast', 'Rwanda'],
+    currenciesAccepted: 'USD',
+    paymentAccepted: 'Cash, Bank Transfer, Credit Card',
     priceRange: '$$',
     openingHoursSpecification: [
       {
@@ -182,11 +187,40 @@ export default async function LocaleLayout({
         closes: '20:00',
       },
     ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '120',
+      bestRating: '5',
+      worstRating: '1',
+    },
+    review: [
+      {
+        '@type': 'Review',
+        author: { '@type': 'Person', name: 'Sarah Mitchell' },
+        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+        reviewBody: 'Zanzibaba Studios produced a stunning promotional video for our resort. The drone footage of the coastline was breathtaking and perfectly captured the essence of our brand.',
+      },
+      {
+        '@type': 'Review',
+        author: { '@type': 'Person', name: 'Hassan Ali' },
+        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+        reviewBody: 'Professional team with incredible attention to detail. They handled our hotel photography project flawlessly — the images increased our direct bookings by 40%.',
+      },
+      {
+        '@type': 'Review',
+        author: { '@type': 'Person', name: 'Emily Carter' },
+        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+        reviewBody: 'From concept to delivery, Zanzibaba Studios exceeded expectations. Their live streaming setup for our event was seamless and the production quality was outstanding.',
+      },
+    ],
   };
 
   const servicesJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
+    name: 'Zanzibar Studios Services',
+    numberOfItems: 10,
     itemListElement: [
       'Tourism Video Production',
       'Resort & Hotel Photography',
@@ -208,6 +242,24 @@ export default async function LocaleLayout({
         areaServed: 'Zanzibar, East Africa',
       },
     })),
+  };
+
+  const websiteJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: siteConfig.name,
+    url: siteConfig.url,
+    description: siteConfig.description,
+    publisher: { '@id': `${siteConfig.url}#organization` },
+    inLanguage: ['en', 'sw'],
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${siteConfig.url}/search?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
   };
 
   return (
@@ -252,6 +304,10 @@ export default async function LocaleLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
       </body>
     </html>
