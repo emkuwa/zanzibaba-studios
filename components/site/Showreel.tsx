@@ -20,6 +20,8 @@ export function Showreel() {
             <img
               src="/images/hero-zanzibar-coastline.jpg"
               alt=""
+              width={1920}
+              height={1080}
               className="h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-ink-950/30 to-ink-950/10" aria-hidden="true" />

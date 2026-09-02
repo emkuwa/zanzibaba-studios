@@ -17,6 +17,7 @@ export function Navbar() {
   const items = [
     { href: '/', label: t('home') },
     { href: '/#services', label: t('services') },
+    { href: '/blog', label: t('blog') },
     { href: '/#portfolio', label: t('portfolio') },
     { href: '/#zanzibar-live', label: t('zanzibarLive') },
     { href: '/#pricing', label: t('pricing') },

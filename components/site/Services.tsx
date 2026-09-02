@@ -3,6 +3,20 @@
 import { useTranslations } from 'next-intl';
 import { ArrowUpRight } from 'lucide-react';
 import { Reveal } from './Reveal';
+import Link from 'next/link';
+
+const SERVICE_SLUGS: Record<string, string> = {
+  tourismVideo: 'video-production',
+  hotelPhoto: 'photography',
+  drone: 'aerial-drone',
+  villa: 'video-production',
+  documentary: 'video-production',
+  campaign: 'commercial',
+  social: 'social-content',
+  events: 'events',
+  live: 'live-streaming',
+  commercial: 'commercial',
+};
 
 const LABELS: Record<string, string> = {
   tourismVideo: 'Tourism',
@@ -69,6 +83,10 @@ export function Services() {
             const img = SERVICE_IMAGES[k];
             return (
               <Reveal key={k} delay={i * 60} className="group">
+                <Link
+                  href={`/services/${SERVICE_SLUGS[k] || 'video-production'}`}
+                  className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-400 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950"
+                >
                 <div className="card-tilt relative h-full overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-ink-800/60 to-ink-900/40 transition-all duration-500 hover:border-coral-400/40 hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.5)]">
                   <div
                     className="absolute -right-12 -top-12 h-40 w-40 rounded-full bg-coral-500/0 blur-2xl transition-all duration-500 group-hover:bg-coral-500/20"
@@ -115,6 +133,7 @@ export function Services() {
                     </div>
                   </div>
                 </div>
+                </Link>
               </Reveal>
             );
           })}

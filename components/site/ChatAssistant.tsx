@@ -164,8 +164,8 @@ export function ChatAssistant() {
 
         const mailto = `mailto:${siteConfig.email}?subject=New Lead — Zanzibaba Studios&body=${quoteText}`;
         const wa = `https://wa.me/${siteConfig.whatsapp}?text=${quoteText}`;
-        window.open(mailto, '_blank');
-        window.open(wa, '_blank');
+        window.open(mailto, '_blank', 'noopener,noreferrer');
+        window.open(wa, '_blank', 'noopener,noreferrer');
       }, 400);
     }, 400);
   };
@@ -174,7 +174,7 @@ export function ChatAssistant() {
     const msg = encodeURIComponent(
       `Hi Zanzibaba Studios! I was talking to the AI Assistant. Here's my project:\n\nType: ${visitorType ? VISITOR_LABELS[visitorType] : '—'}\nServices: ${selectedServices.length > 0 ? selectedServices.join(', ') : ALL_SERVICES.join(', ')}\nBudget: ${BUDGETS.find((b) => b.value === budget)?.label || budget || '—'}\nName: ${name}\nCompany: ${company || '—'}`
     );
-    window.open(`https://wa.me/${siteConfig.whatsapp}?text=${msg}`, '_blank');
+    window.open(`https://wa.me/${siteConfig.whatsapp}?text=${msg}`, '_blank', 'noopener,noreferrer');
   };
 
   return (

@@ -129,6 +129,11 @@ export function Footer() {
                     {t('links.contact')}
                   </Link>
                 </li>
+                <li>
+                  <Link href="/blog" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.blog')}
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
@@ -141,6 +146,7 @@ export function Footer() {
                 <li><Link href="/#zanzibar-live" className="text-white/75 transition-colors hover:text-lagoon-300">{t('links.live')}</Link></li>
                 <li><Link href="/#pricing" className="text-white/75 transition-colors hover:text-lagoon-300">{t('links.pricing')}</Link></li>
                 <li><Link href="/#contact" className="text-white/75 transition-colors hover:text-lagoon-300">{t('links.contact')}</Link></li>
+                <li><Link href="/blog" className="text-white/75 transition-colors hover:text-lagoon-300">{t('links.blog')}</Link></li>
               </ul>
             </div>
             <div className="col-span-2 sm:col-span-1">

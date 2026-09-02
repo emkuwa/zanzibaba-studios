@@ -62,8 +62,8 @@ export async function generateMetadata({
     ? `${serviceName} kwa ${industryName} katika ${locationName}. Kikosi cha hapa, ubora wa kimataifa, muda mfupi wa kukamilisha. Nukuu ya bure ndani ya saa 24.`
     : `Cinema-grade ${serviceName.toLowerCase()} for ${industryName.toLowerCase()} in ${locationName}. Local crew, international quality, fast turnaround. Free quote within 24 hours.`;
 
-  const path = `/${locale}/services/${s.slug}/${l.slug}/${i.slug}`;
-  const url = `${BASE}${path}`;
+  const canonicalPath = locale === 'en' ? `/services/${s.slug}/${l.slug}/${i.slug}` : `/${locale}/services/${s.slug}/${l.slug}/${i.slug}`;
+  const url = `${BASE}${canonicalPath}`;
 
   const altEn = {
     en: `${serviceName} in ${locationName} for ${industryName}`,
@@ -77,9 +77,9 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: {
-        en: `${BASE}/${locale === 'en' ? 'en' : 'en'}/services/${s.slug}/${l.slug}/${i.slug}`,
+        en: `${BASE}/services/${s.slug}/${l.slug}/${i.slug}`,
         sw: `${BASE}/sw/services/${s.slug}/${l.slug}/${i.slug}`,
-        'x-default': `${BASE}/en/services/${s.slug}/${l.slug}/${i.slug}`,
+        'x-default': `${BASE}/services/${s.slug}/${l.slug}/${i.slug}`,
       },
     },
     openGraph: {

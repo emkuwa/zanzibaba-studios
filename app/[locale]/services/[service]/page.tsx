@@ -45,8 +45,8 @@ export async function generateMetadata({
     ? `${serviceName} katika Zanzibar — kwa hoteli, kituo cha starehe, villa, na waendeshaji wa ziara. Nukuu ya bure ndani ya saa 24.`
     : `${serviceName} across Zanzibar — for hotels, resorts, villas, and tour operators. Free quote within 24 hours.`;
 
-  const path = `/${locale}/services/${s.slug}`;
-  const url = `${BASE}${path}`;
+  const canonicalPath = locale === 'en' ? `/services/${s.slug}` : `/${locale}/services/${s.slug}`;
+  const url = `${BASE}${canonicalPath}`;
 
   return {
     title,
@@ -55,9 +55,9 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: {
-        en: `${BASE}/en/services/${s.slug}`,
+        en: `${BASE}/services/${s.slug}`,
         sw: `${BASE}/sw/services/${s.slug}`,
-        'x-default': `${BASE}/en/services/${s.slug}`,
+        'x-default': `${BASE}/services/${s.slug}`,
       },
     },
     openGraph: {

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { ArrowUpRight, Image as ImageIcon, Video as VideoIcon, Plane, Megaphone, Calendar } from 'lucide-react';
 import { Reveal } from './Reveal';
 import { cn } from '@/lib/utils';
@@ -39,8 +39,18 @@ const FILTERS: { key: FilterKey; Icon?: any }[] = [
   { key: 'events', Icon: Calendar },
 ];
 
+const TYPE_TO_SLUG: Record<FilterKey, string> = {
+  all: 'video-production',
+  video: 'video-production',
+  photo: 'photography',
+  drone: 'aerial-drone',
+  campaign: 'commercial',
+  events: 'events',
+};
+
 export function Portfolio() {
   const t = useTranslations('portfolio');
+  const locale = useLocale();
   const [filter, setFilter] = useState<FilterKey>('all');
 
   const items = useMemo(
@@ -123,7 +133,7 @@ export function Portfolio() {
                 )}
               >
                 <a
-                  href={`/en/services/portfolio-${item.key}`}
+                  href={`/${locale === 'en' ? '' : 'sw/'}services/${TYPE_TO_SLUG[item.type] || 'video-production'}`}
                   className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-400 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950"
                   aria-label={t(`items.${item.key}.title`)}
                 >
