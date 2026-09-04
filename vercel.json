@@ -6,7 +6,6 @@
   "devCommand": "next dev",
   "installCommand": "npm install --no-audit --no-fund",
   "outputDirectory": ".next",
-  "public": true,
   "cleanUrls": true,
   "trailingSlash": false,
   "github": {
