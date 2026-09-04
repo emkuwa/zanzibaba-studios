@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/routing';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { Logo } from './Logo';
@@ -17,10 +18,13 @@ export function Navbar() {
   const items = [
     { href: '/', label: t('home') },
     { href: '/#services', label: t('services') },
+    { href: '/stock', label: t('stock') },
+    { href: '/live', label: t('live') },
+    { href: '/live#originals', label: t('originals') },
+    { href: '/monthly-content', label: t('monthlyContent') },
+    { href: '/construction-documentation', label: t('constructionDocs') },
+    { href: '/shoots', label: t('shoots') },
     { href: '/blog', label: t('blog') },
-    { href: '/#portfolio', label: t('portfolio') },
-    { href: '/#zanzibar-live', label: t('zanzibarLive') },
-    { href: '/#pricing', label: t('pricing') },
     { href: '/#contact', label: t('contact') },
   ];
 
@@ -47,7 +51,7 @@ export function Navbar() {
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-1 md:flex" aria-label="Primary">
           {items.map((it) => {
             const active = pathname === it.href.split('#')[0];
             return (
@@ -71,7 +75,7 @@ export function Navbar() {
             href="/#contact"
             className="btn-primary hidden md:inline-flex"
           >
-            {t('quote')}
+            {t('production')}
             <ArrowUpRight
               className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
               aria-hidden="true"
@@ -79,7 +83,7 @@ export function Navbar() {
           </Link>
           <button
             type="button"
-            className="grid h-10 w-10 place-items-center rounded-full border border-white/15 bg-white/5 text-white transition-colors hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-400 lg:hidden"
+            className="grid h-10 w-10 place-items-center rounded-full border border-white/15 bg-white/5 text-white transition-colors hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-400 md:hidden"
             aria-label={open ? t('close') : t('menu')}
             aria-expanded={open}
             aria-controls="mobile-menu"
@@ -94,38 +98,82 @@ export function Navbar() {
         </div>
       </div>
 
-      {open && (
-        <div id="mobile-menu" className="lg:hidden">
-          <div className="container-z pb-6">
-            <div className="glass-strong rounded-3xl p-3">
-              <ul className="flex flex-col">
-                {items.map((it) => (
-                  <li key={it.href}>
-                    <Link
-                      href={it.href}
-                      onClick={() => setOpen(false)}
-                      className="flex items-center justify-between rounded-2xl px-4 py-3 text-base text-white/80 transition-colors hover:bg-white/5 hover:text-white focus:outline-none focus-visible:bg-white/5"
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            id="mobile-menu"
+            className="fixed inset-0 top-16 z-50 md:hidden"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+          >
+            <motion.div
+              className="absolute inset-0 bg-ink-950/95 backdrop-blur-xl"
+              onClick={() => setOpen(false)}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              aria-hidden="true"
+            />
+            <motion.nav
+              className="relative flex h-full flex-col overflow-y-auto px-6 py-8"
+              initial={{ x: '100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '100%' }}
+              transition={{ type: 'spring', damping: 30, stiffness: 300 }}
+              aria-label="Mobile"
+            >
+              <button
+                type="button"
+                className="absolute right-6 top-8 grid h-10 w-10 place-items-center rounded-full border border-white/15 bg-white/5 text-white transition-colors hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-400"
+                aria-label={t('close')}
+                onClick={() => setOpen(false)}
+              >
+                <X className="h-5 w-5" aria-hidden="true" />
+              </button>
+
+              <ul className="mt-12 flex flex-col gap-1">
+                {items.map((it, i) => {
+                  const active = pathname === it.href.split('#')[0];
+                  return (
+                    <motion.li
+                      key={it.href}
+                      initial={{ opacity: 0, x: 24 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: 0.05 + i * 0.04 }}
                     >
-                      <span>{it.label}</span>
-                      <ArrowUpRight className="h-4 w-4 text-coral-400" aria-hidden="true" />
-                    </Link>
-                  </li>
-                ))}
-                <li className="px-1 pt-2">
-                  <Link
-                    href="/#contact"
-                    onClick={() => setOpen(false)}
-                    className="btn-primary w-full"
-                  >
-                    {t('quote')}
-                    <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-                  </Link>
-                </li>
+                      <Link
+                        href={it.href}
+                        onClick={() => setOpen(false)}
+                        className={cn(
+                          'flex items-center justify-between rounded-2xl px-4 py-3.5 text-lg transition-colors hover:bg-white/5 focus:outline-none focus-visible:bg-white/5',
+                          active ? 'text-white' : 'text-white/70 hover:text-white'
+                        )}
+                      >
+                        <span>{it.label}</span>
+                        <ArrowUpRight className="h-4 w-4 text-coral-400" aria-hidden="true" />
+                      </Link>
+                    </motion.li>
+                  );
+                })}
               </ul>
-            </div>
-          </div>
-        </div>
-      )}
+
+              <div className="mt-auto pt-8">
+                <Link
+                  href="/#contact"
+                  onClick={() => setOpen(false)}
+                  className="btn-primary w-full justify-center"
+                >
+                  {t('production')}
+                  <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+                </Link>
+              </div>
+            </motion.nav>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }

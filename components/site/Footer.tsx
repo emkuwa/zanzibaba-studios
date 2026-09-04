@@ -98,40 +98,50 @@ export function Footer() {
             </form>
           </div>
 
-          <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:col-span-7">
+          <div className="grid grid-cols-2 gap-10 sm:grid-cols-4 lg:col-span-7">
             <div>
               <h2 className="text-[11px] font-bold uppercase tracking-[0.28em] text-white/70">
-                {t('explore')}
+                {t('platform')}
               </h2>
               <ul className="mt-5 space-y-3 text-sm">
                 <li>
-                  <Link href="/#portfolio" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
-                    {t('links.portfolio')}
+                  <Link href="/stock" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.stock')}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/#services" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
-                    {t('links.about')}
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/#pricing" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
-                    {t('links.pricing')}
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/#zanzibar-live" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                  <Link href="/live" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
                     {t('links.live')}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/#contact" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
-                    {t('links.contact')}
+                  <Link href="/live#originals" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.originals')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/monthly-content" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.monthlyContent')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/construction-documentation" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.constructionDocs')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/shoots" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.shoots')}
                   </Link>
                 </li>
                 <li>
                   <Link href="/blog" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
                     {t('links.blog')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.production')}
                   </Link>
                 </li>
               </ul>
@@ -141,12 +151,44 @@ export function Footer() {
                 {t('services')}
               </h2>
               <ul className="mt-5 space-y-3 text-sm">
-                <li><Link href="/#services" className="text-white/75 transition-colors hover:text-lagoon-300">{t('links.about')}</Link></li>
-                <li><Link href="/#portfolio" className="text-white/75 transition-colors hover:text-lagoon-300">{t('links.portfolio')}</Link></li>
-                <li><Link href="/#zanzibar-live" className="text-white/75 transition-colors hover:text-lagoon-300">{t('links.live')}</Link></li>
-                <li><Link href="/#pricing" className="text-white/75 transition-colors hover:text-lagoon-300">{t('links.pricing')}</Link></li>
-                <li><Link href="/#contact" className="text-white/75 transition-colors hover:text-lagoon-300">{t('links.contact')}</Link></li>
-                <li><Link href="/blog" className="text-white/75 transition-colors hover:text-lagoon-300">{t('links.blog')}</Link></li>
+                <li>
+                  <Link href="/#services" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.services')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#portfolio" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.portfolio')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#pricing" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.pricing')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#contact" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.contact')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#services" className="text-white/75 transition-colors hover:text-coral-300 focus:outline-none focus-visible:text-coral-300">
+                    {t('links.about')}
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 className="text-[11px] font-bold uppercase tracking-[0.28em] text-white/70">
+                {t('industries')}
+              </h2>
+              <ul className="mt-5 space-y-3 text-sm text-white/75">
+                <li>{t('industriesList.tourism')}</li>
+                <li>{t('industriesList.construction')}</li>
+                <li>{t('industriesList.realEstate')}</li>
+                <li>{t('industriesList.culture')}</li>
+                <li>{t('industriesList.marine')}</li>
+                <li>{t('industriesList.events')}</li>
               </ul>
             </div>
             <div className="col-span-2 sm:col-span-1">

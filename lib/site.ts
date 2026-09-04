@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: 'Zanzibaba Studios',
   shortName: 'Zanzibaba',
-  tagline: 'Media • Production • Broadcasting',
+  tagline: 'Zanzibar, Captured. Live. Licensed.',
   description:
-    'Premium video production, photography, drone services and live streaming for tourism brands in Zanzibar. We tell Zanzibar\u2019s story through powerful visuals.',
+    'Zanzibar\u2019s visual media platform. We produce, broadcast and license premium photography, video and drone content documenting tourism, construction, real estate, culture, marine, business and events across Zanzibar.',
   // Production domain
   url: 'https://studios.zanzibaba.com',
   ogImage: '/og.svg',

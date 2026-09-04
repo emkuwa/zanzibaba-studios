@@ -1,16 +1,14 @@
 import { Hero } from '@/components/site/Hero';
 import { LogoMarquee } from '@/components/site/LogoMarquee';
-import { Portfolio } from '@/components/site/Portfolio';
-import { FeaturedProjects } from '@/components/site/FeaturedProjects';
-import { Showreel } from '@/components/site/Showreel';
+import { LiveNowSection } from '@/components/site/LiveNowSection';
+import { StockShowcase } from '@/components/site/StockShowcase';
+import { OriginalsSection } from '@/components/site/OriginalsSection';
 import { Services } from '@/components/site/Services';
-import { TourismFocus } from '@/components/site/TourismFocus';
-import { ZanzibarLive } from '@/components/site/ZanzibarLive';
-import { ClientLogos } from '@/components/site/ClientLogos';
-import { Stats } from '@/components/site/Stats';
+import { IndustriesSection } from '@/components/site/IndustriesSection';
+import { WorkWithUs } from '@/components/site/WorkWithUs';
+import { FeaturedProjects } from '@/components/site/FeaturedProjects';
 import { WhyChooseUs } from '@/components/site/WhyChooseUs';
-import { Reviews } from '@/components/site/Reviews';
-import { Pricing } from '@/components/site/Pricing';
+import { PlatformCta } from '@/components/site/PlatformCta';
 import { Contact } from '@/components/site/Contact';
 
 export default function HomePage() {
@@ -18,17 +16,15 @@ export default function HomePage() {
     <>
       <Hero />
       <LogoMarquee />
-      <Portfolio />
-      <FeaturedProjects />
-      <Showreel />
+      <LiveNowSection />
+      <StockShowcase />
+      <OriginalsSection />
       <Services />
-      <TourismFocus />
-      <ZanzibarLive />
-      <ClientLogos />
-      <Stats />
+      <IndustriesSection />
+      <WorkWithUs />
+      <FeaturedProjects />
       <WhyChooseUs />
-      <Reviews />
-      <Pricing />
+      <PlatformCta />
       <Contact />
     </>
   );

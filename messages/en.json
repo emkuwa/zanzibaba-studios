@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Zanzibaba Studios",
-    "tagline": "Media • Production • Broadcasting",
+    "tagline": "Zanzibar, Captured. Live. Licensed.",
     "short": "Zanzibaba",
     "sub": "Studios",
     "mark": "ZB"
@@ -10,21 +10,27 @@
     "home": "Home",
     "services": "Services",
     "portfolio": "Portfolio",
+    "stock": "Stock",
+    "originals": "Originals",
     "zanzibarLive": "Zanzibar Live",
     "about": "About",
     "pricing": "Pricing",
     "blog": "Blog",
     "contact": "Contact",
+    "production": "Book a Production",
     "quote": "Request a Quote",
     "menu": "Open menu",
-    "close": "Close menu"
+    "close": "Close menu",
+    "monthlyContent": "Monthly Content",
+    "constructionDocs": "Project Docs",
+    "shoots": "Shoots"
   },
   "hero": {
-    "eyebrow": "Zanzibar • Tourism • Cinema",
-    "title": "We Tell Zanzibar's Story Through Powerful Visuals",
-    "subtitle": "Premium video production, photography, drone services and live streaming for the world's most desirable tourism brands.",
-    "ctaPrimary": "Request a Quote",
-    "ctaSecondary": "View Portfolio",
+    "eyebrow": "Zanzibar • Visual Media • Platform",
+    "title": "Zanzibar, Captured.",
+    "subtitle": "Zanzibar's visual media platform. We produce, broadcast, and license premium photography, video and drone content documenting every side of this extraordinary island.",
+    "ctaPrimary": "Watch Zanzibar Live",
+    "ctaSecondary": "Explore Stock",
     "scroll": "Scroll to explore",
     "location": "Stone Town, Zanzibar",
     "reel": "Reel 2025",
@@ -457,9 +463,19 @@
     }
   },
   "footer": {
-    "tagline": "Zanzibar's home for tourism cinema, photography and live broadcasting.",
+    "tagline": "Zanzibar's visual media platform. We produce, broadcast and license premium content.",
+    "platform": "Platform",
     "explore": "Explore",
-    "services": "Services",
+    "services": "Production",
+    "industries": "Industries",
+    "industriesList": {
+      "tourism": "Tourism & Hospitality",
+      "construction": "Construction",
+      "realEstate": "Real Estate",
+      "culture": "Culture & Heritage",
+      "marine": "Ocean & Marine",
+      "events": "Events & Festivals"
+    },
     "company": "Company",
     "connect": "Connect",
     "rights": "All rights reserved.",
@@ -477,7 +493,14 @@
       "pricing": "Pricing",
       "blog": "Blog",
       "contact": "Contact",
-      "live": "Zanzibar Live"
+      "live": "Live",
+      "stock": "Stock",
+      "originals": "Originals",
+      "production": "Production",
+      "services": "Services",
+      "monthlyContent": "Monthly Content",
+      "constructionDocs": "Project Documentation",
+      "shoots": "One-Off Shoots"
     }
   },
   "chat": {
@@ -520,5 +543,375 @@
     "english": "English",
     "swahili": "Kiswahili",
     "skipToContent": "Skip to content"
+  },
+  "livePlatform": {
+    "eyebrow": "Zanzibar Live",
+    "title": "Live from Zanzibar",
+    "subtitle": "Real-time broadcasts, premieres and documentaries streaming the island to the world.",
+    "cta": "Watch Now",
+    "viewAll": "View All Streams"
+  },
+  "stockSection": {
+    "eyebrow": "Zanzibaba Stock",
+    "title": "Explore Zanzibar Stock",
+    "subtitle": "Licensed photography, 4K video and drone footage. Ready for commercial and editorial use.",
+    "searchPlaceholder": "Search photos, video, drone footage...",
+    "viewAll": "Browse Full Library",
+    "cta": "Explore Stock"
+  },
+  "originalsSection": {
+    "eyebrow": "Zanzibaba Originals",
+    "title": "Zanzibaba Originals",
+    "subtitle": "Our own documentary series documenting Zanzibar's transformation, culture and natural wonders.",
+    "viewAll": "View All Originals",
+    "episodes": "{count} episodes",
+    "watchNow": "Watch Now"
+  },
+  "industries": {
+    "eyebrow": "Explore by Industry",
+    "title": "Visual media for every sector",
+    "subtitle": "Zanzibar documented across tourism, construction, real estate, infrastructure, culture, marine, business and events.",
+    "explore": "Explore",
+    "items": {
+      "tourism": { "title": "Tourism & Hospitality", "desc": "Hotels, resorts, villas, tour operators and destination marketing." },
+      "construction": { "title": "Construction & Development", "desc": "Building projects, infrastructure development and urban transformation." },
+      "realEstate": { "title": "Real Estate", "desc": "Property marketing, luxury villas, commercial spaces and investment showcases." },
+      "infrastructure": { "title": "Roads & Infrastructure", "desc": "Roads, bridges, ports, utilities and public works documentation." },
+      "government": { "title": "Government & Public Sector", "desc": "Public projects, community programs and national development." },
+      "marine": { "title": "Ocean & Marine", "desc": "Coral reefs, marine conservation, fishing, dhow culture and coastal life." },
+      "business": { "title": "Business & Economy", "desc": "Local enterprises, markets, commerce and economic development." },
+      "culture": { "title": "Culture & Heritage", "desc": "Traditions, festivals, Stone Town heritage and community stories." },
+      "events": { "title": "Events & Festivals", "desc": "Live coverage of cultural events, conferences, weddings and celebrations." }
+    }
+  },
+  "platformCta": {
+    "eyebrow": "Get Started",
+    "title": "We produce Zanzibar.",
+    "subtitle": "Whether you need licensed footage, live broadcast coverage, original documentary content, or a full production — Zanzibaba Studios is Zanzibar's visual media platform.",
+    "ctaStock": "Browse Stock",
+    "ctaLive": "Watch Live",
+    "ctaProduction": "Book a Production",
+    "browseStock": "Browse Stock",
+    "watchLive": "Watch Live",
+    "bookProduction": "Book a Production"
+  },
+  "stockPage": {
+    "eyebrow": "Stock Library",
+    "title": "Zanzibaba Stock",
+    "subtitle": "Licensed photography, 4K video and drone footage documenting Zanzibar across tourism, construction, culture, marine and more.",
+    "searchPlaceholder": "Search photos, video, drone footage...",
+    "assetType": {
+      "photo": "Photo",
+      "video": "Video",
+      "drone": "Drone"
+    },
+    "licenseType": {
+      "editorial": "Editorial",
+      "commercial": "Commercial",
+      "both": "Editorial & Commercial"
+    },
+    "licenseButton": "License & Download",
+    "previewLabel": "Preview asset",
+    "noResultsHint": "Try adjusting your search or filters.",
+    "browseLibrary": "Browse Full Library",
+    "filters": {
+      "all": "All Media",
+      "photo": "Photos",
+      "video": "Video",
+      "drone": "Drone"
+    },
+    "sort": {
+      "newest": "Newest",
+      "featured": "Featured",
+      "popular": "Most Popular"
+    },
+    "license": "License",
+    "licenseOptions": {
+      "editorial": "Editorial",
+      "commercial": "Commercial",
+      "both": "Editorial & Commercial"
+    },
+    "resolution": "Resolution",
+    "duration": "Duration",
+    "location": "Location",
+    "category": "Category",
+    "tags": "Tags",
+    "addToCart": "License & Download",
+    "requestCustom": "Request Custom License",
+    "relatedAssets": "Related Assets",
+    "collections": "Collections",
+    "viewCollection": "View Collection",
+    "noResults": "No assets found matching your search.",
+    "resultsCount": "{count} assets found"
+  },
+  "livePage": {
+    "eyebrow": "Zanzibar Live",
+    "title": "Zanzibar Live",
+    "subtitle": "Real-time broadcasts, premieres, documentaries and project updates from across the island.",
+    "home": "Home",
+    "playVideo": "Play video",
+    "seriesInfo": "Series",
+    "tags": "Tags",
+    "connectTitle": "Connect",
+    "liveNow": "LIVE NOW",
+    "premieres": "Premieres",
+    "latestFilms": "Latest Films",
+    "documentaries": "Documentaries",
+    "projectUpdates": "Project Updates",
+    "archive": "Archive",
+    "originals": "Zanzibaba Originals",
+    "watchNow": "Watch Now",
+    "views": "views",
+    "duration": "Duration",
+    "date": "Date",
+    "series": "Series",
+    "episodes": "{count} episodes",
+    "relatedContent": "Related Content",
+    "licenseFootage": "License footage from this story",
+    "browseStock": "Browse Stock",
+    "bookProduction": "Book a Production"
+  },
+  "monthlyContent": {
+    "eyebrow": "Monthly Content",
+    "title": "Your content team, every month.",
+    "subtitle": "Hire Zanzibaba Studios as your ongoing production partner. We handle shooting, editing and delivering social-ready content every month — so you never run out of fresh visuals.",
+    "description": "Instead of booking one shoot, lock in a dedicated production partnership. Every month, our crew captures your property, team, guests or projects and delivers a library of photos, videos, reels and drone footage ready for your website, social media and marketing.",
+    "howItWorks": {
+      "title": "How it works",
+      "step1": { "title": "Plan", "desc": "We agree on a monthly content plan — locations, themes, deliverables." },
+      "step2": { "title": "Shoot", "desc": "Our crew arrives on schedule with cinema-grade equipment." },
+      "step3": { "title": "Deliver", "desc": "You receive edited photos, videos, reels and drone footage monthly." },
+      "step4": { "title": "Archive", "desc": "Every asset is stored in your personal media archive for future use." }
+    },
+    "packages": {
+      "title": "Monthly packages",
+      "subtitle": "Starting prices. Final quotes based on your needs.",
+      "essential": {
+        "name": "Essential",
+        "price": "From $1,500/month",
+        "desc": "For hotels, restaurants and small businesses needing consistent content.",
+        "features": [
+          "2 shoot days per month",
+          "30 edited photos",
+          "4 short-form reels",
+          "1 drone session",
+          "Social-ready formats",
+          "5-day delivery"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "price": "From $3,000/month",
+        "desc": "For resorts, tour operators and brands scaling their content.",
+        "features": [
+          "4 shoot days per month",
+          "60 edited photos",
+          "8 short-form reels",
+          "2 drone sessions",
+          "1 hero video per quarter",
+          "Social media calendar",
+          "3-day delivery",
+          "Dedicated producer"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "From $5,500/month",
+        "desc": "For hospitality groups, developers and corporate brands.",
+        "features": [
+          "8 shoot days per month",
+          "120 edited photos",
+          "16 short-form reels",
+          "4 drone sessions",
+          "1 brand film per quarter",
+          "Live streaming included",
+          "Full media archive",
+          "Priority 48h delivery",
+          "Dedicated producer"
+        ]
+      }
+    },
+    "cta": "Start Monthly Content",
+    "whatsapp": "Chat on WhatsApp",
+    "industries": {
+      "title": "Built for",
+      "items": ["Hotels & Resorts", "Tour Operators", "Restaurants", "Real Estate", "Construction", "Developers", "Corporate"]
+    }
+  },
+  "constructionDocs": {
+    "eyebrow": "Project Documentation",
+    "title": "Document your project from groundbreaking to completion.",
+    "subtitle": "Professional visual documentation for construction, infrastructure and real estate development projects. Progress monitoring, investor reporting and milestone documentation — all in one place.",
+    "description": "Zanzibaba Studios provides long-term visual documentation services for construction and development projects across Zanzibar. From weekly site photography to drone progress monitoring and completion films — we create a comprehensive visual archive of your project's journey.",
+    "services": {
+      "title": "What we document",
+      "items": [
+        { "title": "Weekly/Monthly Site Photography", "desc": "Regular on-site photography capturing progress at every stage." },
+        { "title": "Drone Progress Monitoring", "desc": "Aerial surveys showing site development from above." },
+        { "title": "Construction Progress Videos", "desc": "Time-lapse and editorial video documenting key milestones." },
+        { "title": "Before & After Documentation", "desc": "Side-by-side visual comparisons of project transformation." },
+        { "title": "Management & Investor Reports", "desc": "Visual reports for stakeholders, investors and project managers." },
+        { "title": "Social Media Updates", "desc": "Project content ready for LinkedIn, Instagram and corporate channels." },
+        { "title": "Milestone Documentation", "desc": "Flag moments — foundation, structural completion, ribbon cutting." },
+        { "title": "Project Completion Film", "desc": "Cinematic film celebrating the finished project." },
+        { "title": "Long-Term Visual Archive", "desc": "Complete visual record stored and accessible for years." }
+      ]
+    },
+    "packages": {
+      "title": "Documentation packages",
+      "monthly": {
+        "name": "Monthly Documentation",
+        "price": "From $1,200/month",
+        "desc": "Ongoing monthly documentation for active construction sites.",
+        "features": [
+          "Monthly site visit",
+          "50+ edited photos",
+          "Drone aerial survey",
+          "Progress report",
+          "Social media content",
+          "Cloud archive access"
+        ]
+      },
+      "milestone": {
+        "name": "Milestone Package",
+        "price": "From $2,500",
+        "desc": "Document specific project milestones — one-time shoots.",
+        "features": [
+          "Half-day on-site shoot",
+          "100+ edited photos",
+          "Drone aerial coverage",
+          "2-minute progress video",
+          "Before & after package",
+          "5-day delivery"
+        ]
+      },
+      "fullProject": {
+        "name": "Full Project",
+        "price": "Custom pricing",
+        "desc": "End-to-end documentation from groundbreaking to completion.",
+        "features": [
+          "Regular scheduled visits",
+          "Unlimited photos",
+          "Weekly drone surveys",
+          "Time-lapse installation",
+          "Monthly progress videos",
+          "Investor visual reports",
+          "Completion documentary",
+          "Complete visual archive",
+          "Dedicated project manager"
+        ]
+      }
+    },
+    "cta": "Document My Project",
+    "whatsapp": "Chat on WhatsApp",
+    "industries": {
+      "title": "For projects in",
+      "items": ["Construction", "Infrastructure", "Real Estate", "Hotels & Resorts", "Commercial Developments", "Government Projects"]
+    }
+  },
+  "quickShoots": {
+    "eyebrow": "On Demand",
+    "title": "Professional Zanzibar content — on demand.",
+    "subtitle": "Need content fast? Book a one-off shoot and get professional photos, video and drone footage delivered in days.",
+    "description": "No contracts, no commitments. Book a single shoot day and receive cinema-quality content ready for your website, social media and marketing. Perfect for launches, seasonal updates, or when you just need fresh content now.",
+    "packages": {
+      "title": "Choose your shoot",
+      "subtitle": "Starting prices. WhatsApp us for a custom quote.",
+      "items": [
+        {
+          "name": "Professional Photography",
+          "price": "From $350",
+          "desc": "Editorial photos for your website, OTAs and campaigns.",
+          "features": ["On-location shoot", "20 high-res edited photos", "Color graded", "Commercial license", "48h delivery"]
+        },
+        {
+          "name": "Drone Photography & Video",
+          "price": "From $400",
+          "desc": "Aerial photography and 4K video from above.",
+          "features": ["Up to 2 locations", "2 hours flight time", "Photos + 60s reel", "Commercial rights", "48h delivery"]
+        },
+        {
+          "name": "Reels & Social Content",
+          "price": "From $300",
+          "desc": "Short-form video for Instagram, TikTok and YouTube Shorts.",
+          "features": ["Up to 5 reels", "Vertical + square formats", "Captions + music", "Trending audio", "24h delivery"]
+        },
+        {
+          "name": "Photo + Drone Bundle",
+          "price": "From $600",
+          "desc": "Complete visual package — ground + aerial.",
+          "features": ["Half-day shoot", "30 edited photos", "Drone reel (60s)", "Social cutdowns", "48h delivery"]
+        },
+        {
+          "name": "Full Content Day",
+          "price": "From $1,200",
+          "desc": "Full-day production — video, photo, drone, everything.",
+          "features": ["Full-day coverage", "1 hero film", "40+ photos", "Drone reel", "8 social cutdowns", "7-day delivery"]
+        }
+      ]
+    },
+    "cta": "Book a Shoot",
+    "whatsapp": "Chat on WhatsApp",
+    "needMore": "Need ongoing content?",
+    "monthlyLink": "Check out our Monthly Content packages"
+  },
+  "featuredProjects": {
+    "eyebrow": "Featured on Zanzibar Live",
+    "title": "Feature your project on Zanzibar Live",
+    "subtitle": "Businesses, hotels, developers and organizations can commission professionally produced stories, project features and mini-documentaries for Zanzibar Live.",
+    "description": "Get your project, business or story featured as premium content on Zanzibar Live. Our team produces cinematic features, interviews, behind-the-scenes stories and mini-documentaries that showcase your work to a global audience.",
+    "examples": {
+      "title": "Feature examples",
+      "items": [
+        { "title": "Inside a New Zanzibar Resort", "desc": "Cinematic tour of a newly opened resort, interviews with the team." },
+        { "title": "Building Zanzibar", "desc": "Construction project documentary following progress." },
+        { "title": "Inside a Major Construction Project", "desc": "Behind the scenes of landmark developments." },
+        { "title": "Meet the Business", "desc": "Profile of local entrepreneurs and businesses." },
+        { "title": "Destination Feature", "desc": "In-depth look at a location, attraction or experience." }
+      ]
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        "Tell us about your project or business",
+        "We produce a cinematic feature",
+        "Your story goes live on Zanzibar Live",
+        "Shared across our social channels"
+      ]
+    },
+    "distinguish": "Commissioned features are clearly labeled as sponsored content, while our editorial independence is always maintained.",
+    "cta": "Feature Your Project",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "workWithUs": {
+    "eyebrow": "Work With Zanzibaba",
+    "title": "Hire Zanzibaba Studios.",
+    "subtitle": "One shoot. Monthly content. Long-term project documentation. Zanzibar's visual media platform — ready when you are.",
+    "services": {
+      "monthlyContent": {
+        "title": "Monthly Content",
+        "desc": "Your dedicated content team. Shooting, editing and delivering every month.",
+        "cta": "Start Monthly Content",
+        "href": "/monthly-content"
+      },
+      "constructionDocs": {
+        "title": "Project Documentation",
+        "desc": "From groundbreaking to completion. Visual documentation for construction and development.",
+        "cta": "Document My Project",
+        "href": "/construction-documentation"
+      },
+      "quickShoots": {
+        "title": "One-Off Production",
+        "desc": "Professional photos, video and drone — on demand. No contracts.",
+        "cta": "Book a Shoot",
+        "href": "/shoots"
+      },
+      "featuredStories": {
+        "title": "Featured Stories",
+        "desc": "Commission premium content for Zanzibar Live. Feature your project to a global audience.",
+        "cta": "Feature Your Project",
+        "href": "/live#feature"
+      }
+    }
   }
 }

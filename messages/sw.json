@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Zanzibaba Studios",
-    "tagline": "Midia • Uzalishaji • Utangazaji",
+    "tagline": "Zanzibar, Imeshikwa. Moja kwa Moja. Leseni.",
     "short": "Zanzibaba",
     "sub": "Studios",
     "mark": "ZB"
@@ -15,16 +15,22 @@
     "pricing": "Bei",
     "blog": "Blogu",
     "contact": "Wasiliana",
+    "stock": "Hisa",
+    "originals": "Asili",
+    "production": "Hifadhi Uzalishaji",
     "quote": "Omba Nukuu",
     "menu": "Fungua menyu",
-    "close": "Funga menyu"
+    "close": "Funga menyu",
+    "monthlyContent": "Maudhui ya Kila Mwezi",
+    "constructionDocs": "Ufuatiliaji",
+    "shoots": "Piga Picha"
   },
   "hero": {
-    "eyebrow": "Zanzibar • Utalii • Sinema",
-    "title": "Tunasimulia Hadithi ya Zanzibar kupitia Picha Zenye Nguvu",
-    "subtitle": "Uzalishaji wa video, upigaji picha, huduma za drone na utiririshaji wa moja kwa moja kwa ajili ya bidhaa zinazotamanika za utalii duniani.",
-    "ctaPrimary": "Omba Nukuu",
-    "ctaSecondary": "Tazama Kazi",
+    "eyebrow": "Zanzibar • Midia ya Taswira",
+    "title": "Zanzibar, Imeshikwa.",
+    "subtitle": "Jukwaa la midia ya taswira la Zanzibar. Tunazalisha, kutangaza na kutoa leseni za picha, video na drone za premium zinazochukua kila upande wa kisiwa hiki kipekee.",
+    "ctaPrimary": "Tazama Zanzibar Live",
+    "ctaSecondary": "Chunguza Hisa",
     "scroll": "Sogeza chini kuchunguza",
     "location": "Mji Mkongwe, Zanzibar",
     "reel": "Filamu 2025",
@@ -457,9 +463,19 @@
     }
   },
   "footer": {
-    "tagline": "Nyumba ya Zanzibar kwa sinema ya utalii, upigaji picha na utangazaji wa moja kwa moja.",
+    "tagline": "Jukwaa la midia ya taswira la Zanzibar. Tunazalisha, kutangaza na kutoa leseni za premium.",
+    "platform": "Jukwaa",
     "explore": "Chunguza",
-    "services": "Huduma",
+    "services": "Uzalishaji",
+    "industries": "Sekta",
+    "industriesList": {
+      "tourism": "Utalii na Ukarimu",
+      "construction": "Ujenzi",
+      "realEstate": "Mali na Nyumba",
+      "culture": "Utamaduni na Urithi",
+      "marine": "Bahari na Majini",
+      "events": "Matukio na Sherehe"
+    },
     "company": "Kampuni",
     "connect": "Ungana",
     "rights": "Haki zote zimehifadhiwa.",
@@ -477,7 +493,14 @@
       "pricing": "Bei",
       "blog": "Blogu",
       "contact": "Wasiliana",
-      "live": "Zanzibar Live"
+      "live": "Live",
+      "stock": "Hisa",
+      "originals": "Asili",
+      "production": "Uzalishaji",
+      "services": "Huduma",
+      "monthlyContent": "Maudhui ya Kila Mwezi",
+      "constructionDocs": "Ufuatiliaji",
+      "shoots": "Piga Picha"
     }
   },
   "chat": {
@@ -520,5 +543,375 @@
     "english": "English",
     "swahili": "Kiswahili",
     "skipToContent": "Ruka hadi maudhui"
+  },
+  "livePlatform": {
+    "eyebrow": "Zanzibar Live",
+    "title": "Moja kwa moja kutoka Zanzibar",
+    "subtitle": "Matangazo ya wakati halisi, uzinduzi na filamu za hati zinazotangaza kisiwa kwa ulimwengu.",
+    "cta": "Tazama Sasa",
+    "viewAll": "Tazama Stream Zote"
+  },
+  "stockSection": {
+    "eyebrow": "Zanzibaba Hisa",
+    "title": "Chunguza Hisa ya Zanzibar",
+    "subtitle": "Leseni za picha, video 4K na drone tayari kwa matumizi ya kibiashara na uhariri.",
+    "searchPlaceholder": "Tafuta picha, video, drone...",
+    "viewAll": "Vinjari Maktaba Kamili",
+    "cta": "Vinjari Hisa"
+  },
+  "originalsSection": {
+    "eyebrow": "Zanzibaba Asili",
+    "title": "Zanzibaba Asili",
+    "subtitle": "Mfululizo wetu wa filamu za hati unaochukua mabadiliko, utamaduni na maajabu ya asili ya Zanzibar.",
+    "viewAll": "Tazama Asili Zote",
+    "episodes": "vipindi {count}",
+    "watchNow": "Tazama Sasa"
+  },
+  "industries": {
+    "eyebrow": "Vinjari kwa Sekta",
+    "title": "Midia ya taswira kwa kila sekta",
+    "subtitle": "Zanzibar imechukuliwa katika utalii, ujenzi, mali, miundombinu, utamaduni, bahari, biashara na matukio.",
+    "explore": "Vinjari",
+    "items": {
+      "tourism": { "title": "Utalii na Ukarimu", "desc": "Hoteli, kituo cha starehe, villa, waendeshaji wa ziara na uuzaji wa eneo." },
+      "construction": { "title": "Ujenzi na Maendeleo", "desc": "Miradi ya ujenzi, maendeleo ya miundombinu na mabadiliko ya miji." },
+      "realEstate": { "title": "Mali na Nyumba", "desc": "Uuzaji wa mali, villa za kifahari, nafasi za biashara na maonesho ya uwekezaji." },
+      "infrastructure": { "title": "Barabara na Miundombinu", "desc": "Barabara, madaraja, bandari, huduma na ujenzi wa umma." },
+      "government": { "title": "Serikali na Sekta ya Umma", "desc": "Miradi ya umma, programu za jamii na maendeleo ya kitaifa." },
+      "marine": { "title": "Bahari na Majini", "desc": "Miamba ya miamba, ulinzi wa bahari, uvuji, utamaduni wa dhow na maisha ya pwani." },
+      "business": { "title": "Biashara na Uchumi", "desc": "Biashara za ndani, masoko, biashara na maendeleo ya kiuchumi." },
+      "culture": { "title": "Utamaduni na Urithi", "desc": "Mila, tamasha, urithi wa Mji Mkongwe na hadithi za jamii." },
+      "events": { "title": "Matukio na Sherehe", "desc": "Ufvu wa matukio ya kitamaduni, mikutano, harusi na sherehe." }
+    }
+  },
+  "platformCta": {
+    "eyebrow": "Anza Sasa",
+    "title": "Tunazalisha Zanzibar.",
+    "subtitle": "Iwe unahitaji leseni za video, ulinzi wa moja kwa moja, maudhui ya filamu za hati, au uzalishaji kamili — Zanzibaba Studios ni jukwaa la midia ya taswira la Zanzibar.",
+    "ctaStock": "Vinjari Hisa",
+    "ctaLive": "Tazama Moja kwa Moja",
+    "ctaProduction": "Hifadhi Uzalishaji",
+    "browseStock": "Vinjari Hisa",
+    "watchLive": "Tazama Moja kwa Moja",
+    "bookProduction": "Hifadhi Uzalishaji"
+  },
+  "stockPage": {
+    "eyebrow": "Maktaba ya Hisa",
+    "title": "Zanzibaba Hisa",
+    "subtitle": "Leseni za picha, video 4K na drone zinazochukua Zanzibar katika utalii, ujenzi, utamaduni, bahari na zaidi.",
+    "searchPlaceholder": "Tafuta picha, video, drone...",
+    "assetType": {
+      "photo": "Picha",
+      "video": "Video",
+      "drone": "Drone"
+    },
+    "licenseType": {
+      "editorial": "Uhariri",
+      "commercial": "Kibiashara",
+      "both": "Uhariri na Kibiashara"
+    },
+    "licenseButton": "Leseni na Pakua",
+    "previewLabel": "Angalia asset",
+    "noResultsHint": "Jaribu kubadilisha utafutaji wako.",
+    "browseLibrary": "Vinjari Maktaba Kamili",
+    "filters": {
+      "all": "Midia Yote",
+      "photo": "Picha",
+      "video": "Video",
+      "drone": "Drone"
+    },
+    "sort": {
+      "newest": "Mpya Zaidi",
+      "featured": "Iliyochaguliwa",
+      "popular": "Maarufu Zaidi"
+    },
+    "license": "Leseni",
+    "licenseOptions": {
+      "editorial": "Uhariri",
+      "commercial": "Kibiashara",
+      "both": "Uhariri na Kibiashara"
+    },
+    "resolution": "Azimio",
+    "duration": "Muda",
+    "location": "Eneo",
+    "category": "Jamii",
+    "tags": "Lebo",
+    "addToCart": "Leseni na Pakua",
+    "requestCustom": "Omba Leseni Maalum",
+    "relatedAssets": "Mali Husika",
+    "collections": "Mkusanyiko",
+    "viewCollection": "Tazama Mkusanyiko",
+    "noResults": "Hakuna mali zinazolingana na utafutaji wako.",
+    "resultsCount": "mali {count} zimepatikana"
+  },
+  "livePage": {
+    "eyebrow": "Zanzibar Live",
+    "title": "Zanzibar Live",
+    "subtitle": "Matangazo ya moja kwa moja, uzinduzi, filamu za hati na masasisho ya miradi kutoka kote kisiwani.",
+    "home": "Mwanzo",
+    "playVideo": "Cheza video",
+    "seriesInfo": "Mfululizo",
+    "tags": "Lebo",
+    "connectTitle": "Ungana",
+    "liveNow": "MOJA KWA MOJA SASA",
+    "premieres": "Uzinduzi",
+    "latestFilms": "Filamu za Hivi Karibuni",
+    "documentaries": "Filamu za Hati",
+    "projectUpdates": "Masasisho ya Miradi",
+    "archive": "Folda",
+    "originals": "Zanzibaba Asili",
+    "watchNow": "Tazama Sasa",
+    "views": "miota",
+    "duration": "Muda",
+    "date": "Tarehe",
+    "series": "Mfululizo",
+    "episodes": "vipindi {count}",
+    "relatedContent": "Maudhui Husika",
+    "licenseFootage": "Leseni video kutoka hadithi hii",
+    "browseStock": "Vinjari Hisa",
+    "bookProduction": "Hifadhi Uzalishaji"
+  },
+  "monthlyContent": {
+    "eyebrow": "Maudhui ya Kila Mwezi",
+    "title": "Timu yako ya maudhui, kila mwezi.",
+    "subtitle": "Ajiri Zanzibaba Studios kama mshirika wako wa uzalishaji endelevu. Tunashughulikia upigaji picha, uhariri na utoaji wa maudhui tayari kwa mitandao ya kijamii kila mwezi — ili usikaukie maudhui mapya.",
+    "description": "Badala ya kuhifadhi picha moja, fanya mkataba na mshirika wa uzalishaji. Kila mwezi, kikosi chetu kinapiga picha za kituo chako, timu, wageni au miradi na kinatoa maktaba ya picha, video, reels na drone tayari kwa tovuti yako, mitandao ya kijamii na matangazo.",
+    "howItWorks": {
+      "title": "Jinsi inavyofanya kazi",
+      "step1": { "title": "Panga", "desc": "Tunakubaliana na mpango wa maudhui ya kila mwezi — maeneo, mada, malengo." },
+      "step2": { "title": "Piga Picha", "desc": "Kikosi chetu kinakuja kulingana na ratiba na vifaa vya daraja la sinema." },
+      "step3": { "title": "Toa", "desc": "Unapata picha, video, reels na drone zilizohaririwa kila mwezi." },
+      "step4": { "title": "Hifadhi", "desc": "Kila asset inahifadhiwa kwenye maktaba yako ya midia kwa matumizi ya baadaye." }
+    },
+    "packages": {
+      "title": "Vifurushi vya kila mwezi",
+      "subtitle": "Bei za kuanzia. Nukuu za mwisho zinategemea mahitaji yako.",
+      "essential": {
+        "name": "Essential",
+        "price": "Kutoka $1,500/mwezi",
+        "desc": "Kwa hoteli, restoranti na biashara ndogo zinazohitaji maudhui thabiti.",
+        "features": [
+          "Siku 2 za picha kwa mwezi",
+          "Picha 30 zilizohaririwa",
+          "Reels 4 za fupi",
+          "Kikao 1 cha drone",
+          "Muundo tayari kwa mitandao",
+          "Uwasilishaji wa siku 5"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "price": "Kutoka $3,000/mwezi",
+        "desc": "Kwa kituo cha starehe, waendeshaji wa ziara na bidhaa zinazokuza maudhui yao.",
+        "features": [
+          "Siku 4 za picha kwa mwezi",
+          "Picha 60 zilizohaririwa",
+          "Reels 8 za fupi",
+          "Vikao 2 vya drone",
+          "Video 1 kuu kwa robo",
+          "Kalenda ya mitandao ya kijamii",
+          "Uwasilishaji wa siku 3",
+          "Mzalishaji wa kujitolea"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "Kutoka $5,500/mwezi",
+        "desc": "Kwa vikundi vya ukarimu, wateja na bidhaa za biashara.",
+        "features": [
+          "Siku 8 za picha kwa mwezi",
+          "Picha 120 zilizohaririwa",
+          "Reels 16 za fupi",
+          "Vikao 4 vya drone",
+          "Filamu 1 ya bidhaa kwa robo",
+          "Utiririshaji wa moja kwa moja umetolewa",
+          "Maktaba kamili ya midia",
+          "Uwasilishaji wa kipaumbele 48h",
+          "Mzalishaji wa kujitolea"
+        ]
+      }
+    },
+    "cta": "Anza Maudhui ya Kila Mwezi",
+    "whatsapp": "Zungumza kwa WhatsApp",
+    "industries": {
+      "title": "Imejengwa kwa",
+      "items": ["Hoteli na Vituo vya Starehe", "Waendeshaji wa Ziara", "Restoranti", "Mali na Nyumba", "Ujenzi", "Wateja", "Biashara"]
+    }
+  },
+  "constructionDocs": {
+    "eyebrow": "Ufuatiliaji wa Miradi",
+    "title": "Rekodi mradi wako kutoka mwanzo hadi kukamilika.",
+    "subtitle": "Ufuatiliaji wa kitaalamu wa taswira kwa miradi ya ujenzi, miundombinu na maendeleo ya mali. Ufuatiliaji wa maendeleo, ripoti kwa wawekezaji na ufuatiliaji wa hatua muhimu — vyote mahali pamoja.",
+    "description": "Zanzibaba Studios inatoa huduma za ufuatiliaji wa taswira wa muda mrefu kwa miradi ya ujenzi na maendeleo Zanzibar. Kutoka upigaji picha wa kila wiki hadi ufuatiliaji wa drone na filamu za kukamilika — tunaunda maktaba kamili ya safari ya mradi wako.",
+    "services": {
+      "title": "Tunaandika nini",
+      "items": [
+        { "title": "Upigaji Picha wa Kila Wiki/Mwezi", "desc": "Upigaji picha wa kawaida unaochukua maendeleo katika kila hatua." },
+        { "title": "Ufuatiliaji wa Maendeleo kwa Drone", "desc": "Uchunguzi wa angani unaonyesha maendeleo ya eneo kutoka juu." },
+        { "title": "Video za Maendeleo ya Ujenzi", "desc": "Video za wakati na uhariri zinazochukua hatua muhimu." },
+        { "title": "Uhariri Kabla na Baada", "desc": "Linganisho la taswira la mabadiliko ya mradi." },
+        { "title": "Ripoti kwa Usimamizi na Wawekezaji", "desc": "Ripoti za taswira kwa washirika, wawekezaji na wasimamizi wa miradi." },
+        { "title": "Masasisho ya Mitandao ya Kijamii", "desc": "Maudhui ya mradi tayari kwa LinkedIn, Instagram na mifumo ya biashara." },
+        { "title": "Uhariri wa Hatua Muhimu", "desc": "Siku kuu — msingi, kukamilika kwa miundombinu, kufunga kwa ribeni." },
+        { "title": "Filamu ya Kumalizia Mradi", "desc": "Filamu ya sinema inayosherehekea mradi uliokamilika." },
+        { "title": "Maktaba ya Taswira ya Muda Mrefu", "desc": "Rekodi kamili ya taswira imehifadhiwa na inapatikana kwa miaka." }
+      ]
+    },
+    "packages": {
+      "title": "Vifurushi vya ufuatiliaji",
+      "monthly": {
+        "name": "Ufuatiliaji wa Kila Mwezi",
+        "price": "Kutoka $1,200/mwezi",
+        "desc": "Ufuatiliaji endelevu wa kila mwezi kwa vituo vya ujenzi vinavyofanya kazi.",
+        "features": [
+          "Ziara ya eneo la mwezi",
+          "Picha 50+ zilizohaririwa",
+          "Uchunguzi wa angani wa drone",
+          "Ripoti ya maendeleo",
+          "Maudhui ya mitandao ya kijamii",
+          "Ufikiaji wa maktaba ya wingu"
+        ]
+      },
+      "milestone": {
+        "name": "Kifurushi cha Hatua Muhimu",
+        "price": "Kutoka $2,500",
+        "desc": "Andika hatua maalum za mradi — picha za mara moja.",
+        "features": [
+          "Picha za nusu siku eneo",
+          "Picha 100+ zilizohaririwa",
+          "Ulinzi wa angani wa drone",
+          "Video ya maendeleo ya dakika 2",
+          "Kifurushi kabla na baada",
+          "Uwasilishaji wa siku 5"
+        ]
+      },
+      "fullProject": {
+        "name": "Mradi Kamili",
+        "price": "Bei maalum",
+        "desc": "Ufuatiliaji kamili kutoka mwanzo hadi kukamilika.",
+        "features": [
+          "Ziara za ratiba za kawaida",
+          "Picha zisizo na kikomo",
+          "Uchunguzi wa kila wiki wa drone",
+          "Usakinishaji wa wakati",
+          "Video za maendeleo ya kila mwezi",
+          "Ripoti za taswira za wawekezaji",
+          "Filamu ya hati ya kukamilika",
+          "Maktaba kamili ya taswira",
+          "Msimamizi wa mradi wa kujitolea"
+        ]
+      }
+    },
+    "cta": "Andika Mradi Wangu",
+    "whatsapp": "Zungumza kwa WhatsApp",
+    "industries": {
+      "title": "Kwa miradi katika",
+      "items": ["Ujenzi", "Miundombinu", "Mali na Nyumba", "Hoteli na Vituo vya Starehe", "Maendeleo ya Biashara", "Miradi ya Serikali"]
+    }
+  },
+  "quickShoots": {
+    "eyebrow": "Kwa Haraka",
+    "title": "Maudhui ya kitaalamu ya Zanzibar — unapotaka.",
+    "subtitle": "Unahitaji maudhui kwa haraka? Hifadhi picha moja na upate picha, video na drone za kitaalamu zilizotolewa ndani ya siku chache.",
+    "description": "Hakuna mikataba, ahadi. Hifadhi siku moja ya picha na upate maudhui ya ubora wa sinema tayari kwa tovuti yako, mitandao ya kijamii na matangazo. Nzuri kwa uzinduzi, masasisho ya msimu, au unapohitaji maudhui mapya sasa.",
+    "packages": {
+      "title": "Chagua picha yako",
+      "subtitle": "Bei za kuanzia. Tufungie kwa WhatsApp kwa nukuu maalum.",
+      "items": [
+        {
+          "name": "Upigaji Picha wa Kitaalamu",
+          "price": "Kutoka $350",
+          "desc": "Picha za uhariri kwa tovuti yako, OTA na kampeni.",
+          "features": ["Picha eneo", "Picha 20 za ubora wa juu", "Rangi zimepangwa", "Leseni ya kibiashara", "Uwasilishaji 48h"]
+        },
+        {
+          "name": "Upigaji Picha na Video wa Drone",
+          "price": "Kutoka $400",
+          "desc": "Upigaji picha wa angani na video 4K kutoka juu.",
+          "features": ["Maeneo hadi 2", "Saa 2 za kuruka", "Picha + filamu ya sekunde 60", "Haki za kibiashara", "Uwasilishaji 48h"]
+        },
+        {
+          "name": "Reels na Maudhui ya Kijamii",
+          "price": "Kutoka $300",
+          "desc": "Video fupi kwa Instagram, TikTok na YouTube Shorts.",
+          "features": ["Hadi reels 5", "Muundo wima + mraba", "Maelezo + muziki", "Sauti inayovuma", "Uwasilishaji 24h"]
+        },
+        {
+          "name": "Kifurushi cha Picha + Drone",
+          "price": "Kutoka $600",
+          "desc": "Kifurushi kamili cha taswira — ardini + angani.",
+          "features": ["Picha za nusu siku", "Picha 30 zilizohaririwa", "Filamu ya drone (60s)", "Maudhui ya kijamii", "Uwasilishaji 48h"]
+        },
+        {
+          "name": "Siku Kamili ya Maudhui",
+          "price": "Kutoka $1,200",
+          "desc": "Uzalishaji wa siku nzima — video, picha, drone, kila kitu.",
+          "features": ["Ulinzi wa siku nzima", "Filamu 1 kuu", "Picha 40+", "Filamu ya drone", "Maudhui 8 ya kijamii", "Uwasilishaji wa siku 7"]
+        }
+      ]
+    },
+    "cta": "Hifadhi Picha",
+    "whatsapp": "Zungumza kwa WhatsApp",
+    "needMore": "Unahitaji maudhui endelevu?",
+    "monthlyLink": "Angalia vifurushi vyetu vya Maudhui ya Kila Mwezi"
+  },
+  "featuredProjects": {
+    "eyebrow": "Zanzibar Live Inapendekeza",
+    "title": "Onyesha mradi wako kwenye Zanzibar Live",
+    "subtitle": "Biashara, hoteli, wateja na mashirika yaweza kuagiza hadithi, vipengele vya miradi na filamu ndogo zilizotolewa kitaalamu kwa Zanzibar Live.",
+    "description": "Pata mradi, biashara au hadithi yako imechaguliwa kama maudhui ya premium kwenye Zanzibar Live. Timu yetu inazalisha vipengele vya sinema, mahojiano, hadithi nyuma ya pazia na filamu ndogo zinazonyesha kazi yako kwa umiliki wa ulimwengu.",
+    "examples": {
+      "title": "Mifano ya vipengele",
+      "items": [
+        { "title": "Ndani ya Kituo Kipya cha Zanzibar", "desc": "Ziara ya sinema ya kituo kipya kilichofunguliwa, mahojiano na timu." },
+        { "title": "Kujenga Zanzibar", "desc": "Filamu ya hati ya mradi wa ujenzi ikifuatilia maendeleo." },
+        { "title": "Ndani ya Mradi Mkuu wa Ujenzi", "desc": "Nyuma ya pazia ya maendeleo ya alama." },
+        { "title": "Mtu wa Biashara", "desc": "Wasifu wa wajasiriamali na biashara za ndani." },
+        { "title": "Kipengele cha Eneo", "desc": "Uchunguzi wa kina wa eneo, kivutio au uzoefu." }
+      ]
+    },
+    "howItWorks": {
+      "title": "Jinsi inavyofanya kazi",
+      "steps": [
+        "Tuambie kuhusu mradi wako au biashara yako",
+        "Tunazalisha kipengele cha sinema",
+        "Hadithi yako inaanza moja kwa moja kwenye Zanzibar Live",
+        "Inashirikiwa kwenye mitandao yetu ya kijamii"
+      ]
+    },
+    "distinguish": "Vipengele vilivyoagizwa vinafungwa wazi kama maudhui yanayotangazwa, huku uhuru wetu wa uhariri ukibaki daima.",
+    "cta": "Onyesha Mradi Wangu",
+    "whatsapp": "Zungumza kwa WhatsApp"
+  },
+  "workWithUs": {
+    "eyebrow": "Fanya Kazi na Zanzibaba",
+    "title": "Ajiri Zanzibaba Studios.",
+    "subtitle": "Picha moja. Maudhui ya kila mwezi. Ufuatiliaji wa mradi wa muda mrefu. Jukwaa la midia ya taswira la Zanzibar — tayari unapohitaji.",
+    "services": {
+      "monthlyContent": {
+        "title": "Maudhui ya Kila Mwezi",
+        "desc": "Timu yako ya maudhui. Inapiga picha, kuhariri na kutoa kila mwezi.",
+        "cta": "Anza Maudhui ya Kila Mwezi",
+        "href": "/monthly-content"
+      },
+      "constructionDocs": {
+        "title": "Ufuatiliaji wa Miradi",
+        "desc": "Kutoka mwanzo hadi kukamilika. Ufuatiliaji wa taswira kwa ujenzi na maendeleo.",
+        "cta": "Rekodi Mradi Wangu",
+        "href": "/construction-documentation"
+      },
+      "quickShoots": {
+        "title": "Uzalishaji wa Mara Moja",
+        "desc": "Picha, video na drone za kitaalamu — kwa ofa. Hakuna mikataba.",
+        "cta": "Hifadhi Picha",
+        "href": "/shoots"
+      },
+      "featuredStories": {
+        "title": "Hadithi Zilizochaguliwa",
+        "desc": "Agiza maudhui ya premium kwa Zanzibar Live. Onyesha mradi wako kwa umiliki wa ulimwengu.",
+        "cta": "Onyesha Mradi Wangu",
+        "href": "/live#feature"
+      }
+    }
   }
 }
