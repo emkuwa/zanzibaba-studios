@@ -192,7 +192,7 @@ export default async function LiveContentPage({ params }: Props) {
                   </p>
                   {content.episodes && (
                     <p className="mt-2 text-sm text-white/60">
-                      {content.episodes} {t('episodes')}
+                      {t('episodes', { count: content.episodes })}
                     </p>
                   )}
                 </div>
