@@ -187,33 +187,6 @@ export default async function LocaleLayout({
         closes: '20:00',
       },
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '120',
-      bestRating: '5',
-      worstRating: '1',
-    },
-    review: [
-      {
-        '@type': 'Review',
-        author: { '@type': 'Person', name: 'Sarah Mitchell' },
-        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-        reviewBody: 'Zanzibaba Studios produced a stunning promotional video for our resort. The drone footage of the coastline was breathtaking and perfectly captured the essence of our brand.',
-      },
-      {
-        '@type': 'Review',
-        author: { '@type': 'Person', name: 'Hassan Ali' },
-        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-        reviewBody: 'Professional team with incredible attention to detail. They handled our hotel photography project flawlessly — the images increased our direct bookings by 40%.',
-      },
-      {
-        '@type': 'Review',
-        author: { '@type': 'Person', name: 'Emily Carter' },
-        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-        reviewBody: 'From concept to delivery, Zanzibaba Studios exceeded expectations. Their live streaming setup for our event was seamless and the production quality was outstanding.',
-      },
-    ],
   };
 
   const servicesJsonLd = {
